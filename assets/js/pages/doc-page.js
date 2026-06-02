@@ -109,8 +109,13 @@ class DocPage {
     }
 
     async loadDocument() {
+        // 使用 documentInfo.full_path 加载实际文件
+        const filePath = this.documentInfo?.full_path;
+        if (!filePath) {
+            throw new Error("Document path not found");
+        }
         // 把 # 替换为 %23，避免浏览器把 # 后面的内容当作片段标识符截断
-        const safePath = this.documentPath.replace(/#/g, '%23');
+        const safePath = filePath.replace(/#/g, '%23');
         const response = await fetch(`./${safePath}`, { cache: "no-store" });
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
