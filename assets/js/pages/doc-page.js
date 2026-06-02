@@ -10,6 +10,7 @@ class DocPage {
         this.siteText = null;
         this.documentInfo = null;
         this.documentPath = null;
+        this.documentSlug = null;
         this.elements = {
             title: document.getElementById("docTitle"),
             meta: document.getElementById("docMeta"),
