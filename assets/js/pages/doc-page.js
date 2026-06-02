@@ -1,4 +1,4 @@
-import { findDocumentByPath, isSafeDocumentPath, loadIndexData, loadSiteText } from "../core/data-service.js";
+import { findDocumentByPath, findDocumentBySlug, isSafeDocumentPath, isSafeSlug, loadIndexData, loadSiteText } from "../core/data-service.js";
 import { buildMarkdownView } from "../core/markdown.js";
 import { escapeHtml, readText, setDocumentMeta, setText } from "../core/dom.js";
 import { initSharedMotion, refreshMotion } from "../core/motion.js";
@@ -33,19 +33,42 @@ class DocPage {
         initSharedMotion();
         initEffects();
         this.bindEvents();
-        this.documentPath = new URLSearchParams(window.location.search).get("path");
+
+        // 优先从 URL 路径提取 slug（新格式：/doc/slug）
+        const pathMatch = window.location.pathname.match(/\/doc\/([^\/]+)$/);
+        if (pathMatch) {
+            this.documentSlug = decodeURIComponent(pathMatch[1]);
+        }
+
+        // 兼容旧格式：从 query string 读取
+        const params = new URLSearchParams(window.location.search);
+        this.documentSlug = this.documentSlug || params.get("slug");
+        this.documentPath = params.get("path");
+
         this.siteText = await loadSiteText().catch(() => null);
         this.renderCopy();
-        if (!this.documentPath) {
+
+        if (!this.documentSlug && !this.documentPath) {
             this.renderError(this.copy("doc.invalid_path"));
             return;
         }
 
         try {
             this.indexData = await loadIndexData();
-            if (!isSafeDocumentPath(this.indexData, this.documentPath)) {
-                this.renderError(this.copy("doc.forbidden_path"));
-                return;
+
+            // 根据 slug 或 path 查找文档
+            if (this.documentSlug) {
+                if (!isSafeSlug(this.indexData, this.documentSlug)) {
+                    this.renderError(this.copy("doc.forbidden_path"));
+                    return;
+                }
+                this.documentInfo = findDocumentBySlug(this.indexData, this.documentSlug);
+            } else {
+                if (!isSafeDocumentPath(this.indexData, this.documentPath)) {
+                    this.renderError(this.copy("doc.forbidden_path"));
+                    return;
+                }
+                this.documentInfo = findDocumentByPath(this.indexData, this.documentPath);
             }
 
             this.documentInfo = findDocumentByPath(this.indexData, this.documentPath);
