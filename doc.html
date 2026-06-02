@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/doc.css">
+</head>
+<body>
+    <main class="site-shell page-frame">
+        <div class="doc-layout" id="docLayout">
+            <aside class="glass-panel doc-toc-sidebar reveal" id="docTocSidebar">
+                <div class="doc-toc-sidebar__head">
+                    <button class="btn-ghost doc-toc-toggle" type="button" id="tocToggle">
+                        <i class="fas fa-bars-staggered"></i>
+                        <span id="tocToggleLabel"></span>
+                    </button>
+                    <div class="section-heading" style="margin-bottom:0;">
+                        <h2 class="section-title" style="font-size:1.1rem;"><i class="fas fa-list"></i> <span id="docTocTitle"></span></h2>
+                    </div>
+                </div>
+                <div id="docTocBody"></div>
+            </aside>
+
+            <div class="doc-main-column">
+                <header class="glass-panel doc-header reveal">
+                    <div class="doc-header__top">
+                        <a class="back-link" href="./docs.html" id="backToDocs">
+                            <i class="fas fa-arrow-left"></i>
+                            <span id="docBackText"></span>
+                        </a>
+                        <span class="eyebrow" id="docEyebrow"><i class="fas fa-book-open-reader"></i><span id="docEyebrowText"></span></span>
+                    </div>
+                    <div>
+                        <h1 class="doc-title" id="docTitle"></h1>
+                        <div class="meta-row" id="docMeta"></div>
+                    </div>
+                </header>
+
+                <section class="section-card doc-content-panel reveal stagger-1" id="docContent" aria-live="polite">
+                    <div class="empty-state">
+                        <div class="loading-ring" aria-hidden="true"></div>
+                        <p class="hidden" id="docLoadingText"></p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // 修复 # 字符导致的 404 问题
+        // 拦截 fetch 请求，确保 URL 中的 # 被正确编码为 %23
+        (function() {
+            const originalFetch = window.fetch;
+            window.fetch = function(url, options) {
+                if (typeof url === 'string' && url.includes('#')) {
+                    url = url.replace(/#/g, '%23');
+                }
+                return originalFetch.call(this, url, options);
+            };
+        })();
+    </script>
+    <script type="module" src="./assets/js/pages/doc-page.js?v=final1"></script>
+</body>
+</html>

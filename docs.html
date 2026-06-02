@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/docs.css">
+</head>
+<body>
+    <main class="site-shell page-frame">
+        <div class="docs-layout">
+            <aside class="glass-panel docs-sidebar reveal">
+                <div class="docs-sidebar__header">
+                    <a class="back-link" href="./index.html">
+                        <i class="fas fa-arrow-left"></i>
+                        <span id="docsBackHomeText"></span>
+                    </a>
+                    <div>
+                        <h1 class="section-title" style="font-size:1.3rem;"><i class="fas fa-folder-tree"></i> <span id="docsSidebarTitle"></span></h1>
+                        <p class="muted-text hidden" id="docsSidebarDescription"></p>
+                    </div>
+                    <div class="tab-row">
+                        <button class="tab-button" type="button" data-view="library"><span id="docsTabLibrary"></span></button>
+                        <button class="tab-button" type="button" data-view="pending"><span id="docsTabPending"></span></button>
+                        <button class="tab-button" type="button" data-view="history"><span id="docsTabHistory"></span></button>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="section-heading" style="margin-bottom:12px;">
+                    <h2 class="section-title" style="font-size:1.08rem;"><i class="fas fa-layer-group"></i> <span id="docsCategoryTitle"></span></h2>
+                </div>
+                <div class="sidebar-stack" id="folderList">
+                    <div class="empty-state">
+                        <div class="loading-ring" aria-hidden="true"></div>
+                        <p class="hidden" id="docsLoadingCategoryTreeText"></p>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="docs-main">
+                <header class="glass-panel toolbar reveal stagger-1">
+                    <div class="toolbar__summary">
+                        <span class="eyebrow"><i class="fas fa-compass"></i> <span id="docsToolbarEyebrow"></span></span>
+                        <h1 class="section-title" id="viewLabel" style="margin-top:4px;"></h1>
+                        <p class="muted-text hidden" id="viewSummary"></p>
+                    </div>
+                    <div class="toolbar__actions">
+                        <span class="stat-pill"><i class="fas fa-clock"></i> <span class="hidden" id="docsUpdateLabel"></span><span id="updateTime">--</span></span>
+                        <button class="btn-secondary" type="button" id="refreshDocs">
+                            <i class="fas fa-rotate"></i>
+                            <span id="docsRefreshText"></span>
+                        </button>
+                    </div>
+                </header>
+
+                <!-- 搜索与标签筛选 -->
+                <section class="section-card search-section reveal stagger-2">
+                    <div class="search-bar">
+                        <i class="fas fa-search search-bar__icon"></i>
+                        <input type="text" id="searchInput" class="search-bar__input" placeholder="搜索文档标题..." autocomplete="off">
+                        <button class="search-bar__clear hidden" id="searchClear" type="button">
+                            <i class="fas fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="tag-filter-area" id="tagFilterArea">
+                        <div class="tag-filter-area__header">
+                            <span class="tag-filter-area__label"><i class="fas fa-tags"></i> <span id="docsTagLabel">标签筛选</span></span>
+                            <button class="tag-filter-area__clear hidden" id="tagClear" type="button">清除筛选</button>
+                        </div>
+                        <div class="tag-filter-area__body" id="tagList">
+                            <div class="empty-state">
+                                <div class="loading-ring" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card reveal stagger-3">
+                    <div class="section-heading">
+                        <div>
+                            <h2 class="section-title"><i class="fas fa-chart-column"></i> <span id="docsStatsTitle"></span></h2>
+                            <p class="muted-text hidden" id="docsStatsDescription"></p>
+                        </div>
+                        <span class="stat-pill"><i class="fas fa-file-lines"></i> <span class="hidden" id="docsCurrentViewDocsLabel"></span><span id="docCount">0</span></span>
+                    </div>
+                    <div id="docStats">
+                        <div class="empty-state">
+                            <div class="loading-ring" aria-hidden="true"></div>
+                            <p class="hidden" id="docsLoadingStatsText"></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card reveal stagger-4">
+                    <div class="section-heading">
+                        <div>
+                            <h2 class="section-title"><i class="fas fa-file-alt"></i> <span id="docsListTitle"></span></h2>
+                            <p class="muted-text hidden" id="docsListDescription"></p>
+                        </div>
+                    </div>
+                    <div id="documentList">
+                        <div class="empty-state">
+                            <div class="loading-ring" aria-hidden="true"></div>
+                            <p class="hidden" id="docsLoadingListText"></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="./assets/js/pages/docs-page.js?v=2"></script>
+</body>
+</html>

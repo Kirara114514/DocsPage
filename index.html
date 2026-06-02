@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body>
+    <main class="site-shell page-frame">
+        <section class="home-hero reveal">
+            <span class="eyebrow" id="homeEyebrow">
+                <i class="fas fa-sparkles"></i>
+                <span id="homeEyebrowText"></span>
+            </span>
+
+            <div>
+                <h1 class="hero-title" id="homeHeroTitle"></h1>
+                <p class="hero-copy hidden" id="homeHeroCopy"></p>
+            </div>
+
+            <div class="button-row">
+                <a class="btn" href="./docs.html?view=library">
+                    <i class="fas fa-book-open"></i>
+                    <span id="homePrimaryCtaText"></span>
+                </a>
+                <button class="btn-secondary" type="button" id="refreshHome">
+                    <i class="fas fa-rotate"></i>
+                    <span id="homeRefreshText"></span>
+                </button>
+            </div>
+
+            <section class="home-hero__stats" id="heroStats" aria-live="polite">
+                <article class="home-hero__panel">
+                    <div class="loading-ring" aria-hidden="true"></div>
+                    <div class="surface-caption hidden" id="homeLoadingIndexText"></div>
+                </article>
+            </section>
+
+            <span class="floating-orb" style="top: 24px; right: 42px;"></span>
+            <span class="floating-orb floating-orb--warm" style="bottom: 10px; left: 30px;"></span>
+        </section>
+
+        <div class="home-sections">
+            <section class="section-card reveal stagger-1">
+                <div class="section-heading">
+                    <div>
+                        <h2 class="section-title"><i class="fas fa-id-card"></i> <span id="homeProfileTitle"></span></h2>
+                        <p class="muted-text hidden" id="homeProfileDescription"></p>
+                    </div>
+                    <span class="stat-pill">
+                        <i class="fas fa-clock"></i>
+                        <span class="hidden" id="homeProfileTimeLabel"></span><span id="updatedAt">--</span>
+                    </span>
+                </div>
+                <div class="info-grid" id="userInfoGrid">
+                    <div class="empty-state">
+                        <div class="loading-ring" aria-hidden="true"></div>
+                        <p class="hidden" id="homeLoadingProfileText"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-card reveal stagger-2">
+                <div class="section-heading">
+                    <div>
+                        <h2 class="section-title"><i class="fas fa-folder-open"></i> <span id="homeLibraryTitle"></span></h2>
+                        <p class="muted-text hidden" id="homeLibraryDescription"></p>
+                    </div>
+                    <a class="btn-ghost" href="./docs.html?view=library">
+                        <i class="fas fa-arrow-right"></i>
+                        <span id="homeLibraryCta"></span>
+                    </a>
+                </div>
+                <div class="folder-grid" id="folderGrid">
+                    <div class="empty-state">
+                        <div class="loading-ring" aria-hidden="true"></div>
+                        <p class="hidden" id="homeLoadingCategoriesText"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-card reveal stagger-3">
+                <div class="section-heading">
+                    <div>
+                        <h2 class="section-title"><i class="fas fa-arrows-rotate"></i> <span id="homeRecordsTitle"></span></h2>
+                        <p class="muted-text hidden" id="homeRecordsDescription"></p>
+                    </div>
+                </div>
+                <div class="record-columns">
+                    <div class="record-column">
+                        <div class="section-heading">
+                            <h3 class="section-title" style="font-size:1.1rem;"><i class="fas fa-hourglass-half"></i> <span id="homePendingTitle"></span></h3>
+                            <a class="btn-ghost" href="./docs.html?view=pending">
+                                <i class="fas fa-arrow-right"></i>
+                                <span id="homePendingCta"></span>
+                            </a>
+                        </div>
+                        <div id="pendingList">
+                            <div class="empty-state">
+                                <div class="loading-ring" aria-hidden="true"></div>
+                                <p class="hidden" id="homeLoadingPendingText"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="record-column">
+                        <div class="section-heading">
+                            <h3 class="section-title" style="font-size:1.1rem;"><i class="fas fa-box-archive"></i> <span id="homeHistoryTitle"></span></h3>
+                            <a class="btn-ghost" href="./docs.html?view=history">
+                                <i class="fas fa-arrow-right"></i>
+                                <span id="homeHistoryCta"></span>
+                            </a>
+                        </div>
+                        <div id="historyList">
+                            <div class="empty-state">
+                                <div class="loading-ring" aria-hidden="true"></div>
+                                <p class="hidden" id="homeLoadingHistoryText"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="home-footer reveal stagger-4">
+            <div>
+                <strong id="homeFooterBrand"></strong>
+                <span class="surface-caption"><span class="hidden" id="homeFooterUpdatedLabel"></span><span id="footerUpdatedAt">--</span></span>
+            </div>
+            <div class="footer-links">
+                <a class="link-chip" href="./docs.html?view=library">
+                    <i class="fas fa-file-lines"></i>
+                    <span id="homeFooterDocsLink"></span>
+                </a>
+            </div>
+        </footer>
+    </main>
+
+    <script type="module" src="./assets/js/pages/home-page.js"></script>
+</body>
+</html>
