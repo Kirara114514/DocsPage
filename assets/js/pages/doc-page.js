@@ -71,7 +71,6 @@ class DocPage {
                 this.documentInfo = findDocumentByPath(this.indexData, this.documentPath);
             }
 
-            this.documentInfo = findDocumentByPath(this.indexData, this.documentPath);
             await this.loadDocument();
         } catch (error) {
             const message = error instanceof Error ? error.message : this.copy("common.error_unknown");
