@@ -191,3 +191,12 @@ export function isSafeDocumentPath(indexData, fullPath) {
     if (fullPath.includes("..") || fullPath.includes("\\")) return false;
     return Boolean(findDocumentByPath(indexData, fullPath));
 }
+
+export function findDocumentBySlug(indexData, slug) {
+    return getDocuments(indexData).find((doc) => doc.slug === slug) ?? null;
+}
+
+export function isSafeSlug(indexData, slug) {
+    if (!slug || typeof slug !== "string") return false;
+    return Boolean(findDocumentBySlug(indexData, slug));
+}
