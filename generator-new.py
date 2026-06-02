@@ -138,6 +138,15 @@ def extract_metadata_from_content(content: str) -> Metadata:
     )
 
 
+def generate_slug(title: str) -> str:
+    """把标题转成 URL 友好的 slug"""
+    slug = title.lower()
+    slug = re.sub(r'[^\w一-鿿]+', '-', slug)
+    slug = slug.strip('-')
+    slug = re.sub(r'-+', '-', slug)
+    return slug
+
+
 def should_ignore(path: Path) -> bool:
     return path.name in IGNORED_NAMES or path.name.startswith(".")
 
@@ -288,6 +297,7 @@ def scan_directory(root_path: Path, rel_path: str = "") -> tuple[dict, list[dict
             "type": "file",
             "path": relative_document_path,
             "title": title,
+            "slug": generate_slug(title),
             "date": metadata.date,
             "updated": metadata.updated or metadata.date,
             "tags": list(metadata.tags),
