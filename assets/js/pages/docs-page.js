@@ -608,7 +608,7 @@ class DocsPage {
                         const priorityBadge = this.resolvePriorityBadge(doc.priority);
                         const statusBadge = this.resolveStatusBadge(doc.status);
                         return `
-                            <a class="doc-item reveal stagger-${(index % 4) + 1}" data-tilt href="./doc.html?path=${encodeURIComponent(doc.full_path)}">
+                            <a class="doc-item reveal stagger-${(index % 4) + 1}" data-tilt href="./doc/${encodeURIComponent(doc.slug)}">
                                 <div class="doc-item__header">
                                     <h3 class="doc-item__title">${escapeHtml(doc.title || doc.name)}</h3>
                                     <div class="meta-row">
@@ -677,7 +677,7 @@ class DocsPage {
                         const priorityBadge = this.resolvePriorityBadge(doc.priority);
                         const statusBadge = this.resolveStatusBadge(doc.status);
                         return `
-                            <a class="doc-item reveal stagger-${(index % 4) + 1}" data-tilt href="./doc.html?path=${encodeURIComponent(doc.full_path)}">
+                            <a class="doc-item reveal stagger-${(index % 4) + 1}" data-tilt href="./doc/${encodeURIComponent(doc.slug)}">
                                 <div class="doc-item__header">
                                     <h3 class="doc-item__title">${escapeHtml(doc.title || doc.name)}</h3>
                                     <div class="meta-row">
