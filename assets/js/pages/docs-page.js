@@ -298,6 +298,10 @@ class DocsPage {
         setText(this.elements.listDescription, this.copy("docs.list_description"));
         setText(this.elements.loadingListText, this.copy("common.loading_document_list"));
         setText(this.elements.tagLabel, this.copy("docs.tag_filter_label"), { hideIfEmpty: false });
+        setText(this.elements.tagClear, this.copy("docs.tag_clear"));
+        if (this.elements.searchInput) {
+            this.elements.searchInput.placeholder = this.copy("docs.search_placeholder");
+        }
 
         // 回填搜索框的值
         if (this.elements.searchInput && this.searchQuery) {

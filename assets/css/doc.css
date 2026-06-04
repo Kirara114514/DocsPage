@@ -72,9 +72,7 @@
 }
 
 .doc-layout.is-toc-collapsed #tocToggleLabel,
-.doc-layout.is-toc-collapsed #docTocTitle,
-.doc-layout.is-toc-collapsed #docTocBody,
-.doc-layout.is-toc-collapsed .doc-toc-sidebar__head .section-heading {
+.doc-layout.is-toc-collapsed #docTocBody {
     display: none;
 }
 
@@ -335,7 +333,6 @@
     }
 
     .doc-layout.is-toc-collapsed #tocToggleLabel,
-    .doc-layout.is-toc-collapsed #docTocTitle,
     .doc-layout.is-toc-collapsed #docTocBody {
         display: initial;
     }

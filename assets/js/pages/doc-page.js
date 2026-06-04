@@ -22,7 +22,6 @@ class DocPage {
             loadingText: document.getElementById("docLoadingText"),
             tocSidebar: document.getElementById("docTocSidebar"),
             tocBody: document.getElementById("docTocBody"),
-            tocTitle: document.getElementById("docTocTitle"),
             tocToggle: document.getElementById("tocToggle"),
             tocToggleLabel: document.getElementById("tocToggleLabel"),
             layout: document.getElementById("docLayout"),
@@ -97,7 +96,6 @@ class DocPage {
         setText(this.elements.eyebrowText, this.copy("doc.eyebrow"));
         this.elements.eyebrow?.classList.toggle("hidden", !this.copy("doc.eyebrow"));
         setText(this.elements.loadingText, this.copy("common.loading_document"));
-        setText(this.elements.tocTitle, this.copy("doc.toc_title"), { hideIfEmpty: false });
         this.updateTocToggleLabel();
     }
 
