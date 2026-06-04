@@ -190,6 +190,21 @@
     margin-left: 24px;
 }
 
+.toc-link[data-depth="4"] {
+    margin-left: 36px;
+    font-size: 0.88rem;
+}
+
+.toc-link[data-depth="5"] {
+    margin-left: 48px;
+    font-size: 0.84rem;
+}
+
+.toc-link[data-depth="6"] {
+    margin-left: 60px;
+    font-size: 0.8rem;
+}
+
 .markdown-body {
     font-size: 1rem;
     color: var(--text-primary);

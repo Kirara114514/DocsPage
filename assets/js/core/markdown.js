@@ -91,7 +91,7 @@ export function buildMarkdownView(markdownSource, options = {}) {
         }
 
         const id = slugger(text);
-        if (depth <= 3) {
+        if (depth <= 6) {
             headings.push({ depth, text, id });
         }
         return `<h${depth} id="${id}">${escapeHtml(text)}</h${depth}>`;
