@@ -188,18 +188,15 @@ class DocPage {
             }
         };
 
-        // 点击目录项：立即高亮 + 平滑滚动（覆盖 IntersectionObserver 延迟）
+        // 点击目录项：平滑滚动到目标位置，选中态由 IntersectionObserver 自然更新
         tocLinks.forEach((link) => {
             link.addEventListener("click", (e) => {
                 const href = link.getAttribute("href");
                 if (!href?.startsWith("#")) return;
                 e.preventDefault();
 
-                setActive(link);
-
                 const target = document.getElementById(href.slice(1));
                 if (target) {
-                    // 避开 sticky header 高度，让标题刚好出现在卡片下方
                     const header = document.querySelector(".doc-header");
                     const offset = header ? header.getBoundingClientRect().height + 18 + 12 : 110;
                     const targetTop = target.getBoundingClientRect().top + window.scrollY;
