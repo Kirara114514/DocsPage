@@ -93,6 +93,8 @@
     "priority_low": "低优先级",
     "priority_medium": "中优先级",
     "tag_filter_label": "标签筛选",
+    "tag_clear": "清除筛选",
+    "search_placeholder": "搜索文档标题...",
     "search_results_label": "搜索结果",
     "search_empty": "没有找到匹配的文档，试试其他关键词或标签喵。",
     "stats_card_tags_label": "已选标签",
