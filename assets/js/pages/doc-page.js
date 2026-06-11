@@ -184,6 +184,7 @@ class DocPage {
             if (link && link !== lastActive) {
                 lastActive?.classList.remove("is-active");
                 link.classList.add("is-active");
+                link.scrollIntoView({ block: "center", behavior: "smooth" });
                 lastActive = link;
             }
         };
