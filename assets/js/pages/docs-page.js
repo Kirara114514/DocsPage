@@ -73,10 +73,16 @@ class DocsPage {
         const urlParams = new URLSearchParams(window.location.search);
         this.currentView = urlParams.get("view") || "library";
         // folder 为空时默认"全部"（selectedFolder = null）
-        const folderFromUrl = urlParams.get("folder");
-        const folderFromSession = sessionStorage.getItem("selectedFolder");
-        this.selectedFolder = folderFromUrl || folderFromSession || null;
-        this.selectedSubFolder = urlParams.get("subfolder") || sessionStorage.getItem("selectedSubFolder") || null;
+        // 历史记录/待处理视图不使用分类，清除 folder 状态
+        if (this.currentView !== "library") {
+            this.selectedFolder = null;
+            this.selectedSubFolder = null;
+        } else {
+            const folderFromUrl = urlParams.get("folder");
+            const folderFromSession = sessionStorage.getItem("selectedFolder");
+            this.selectedFolder = folderFromUrl || folderFromSession || null;
+            this.selectedSubFolder = urlParams.get("subfolder") || sessionStorage.getItem("selectedSubFolder") || null;
+        }
         const tagsFromUrl = urlParams.get("tags");
         if (tagsFromUrl) {
             this.selectedTags = new Set(tagsFromUrl.split(",").filter(Boolean));
