@@ -537,8 +537,11 @@ class DocsPage {
     getFilteredDocs() {
         let docs = this.getCurrentCategoryDocs();
 
-        const dateSorter = (left, right) =>
-            String(right.updated || right.date).localeCompare(String(left.updated || left.date));
+        const dateSorter = (left, right) => {
+            const leftDate = left.updated || left.date || "";
+            const rightDate = right.updated || right.date || "";
+            return String(rightDate).localeCompare(String(leftDate));
+        };
 
         // 标签筛选（取交集）
         if (this.selectedTags.size > 0) {
@@ -660,7 +663,11 @@ class DocsPage {
 
         documents = documents
             .filter((doc) => doc.type === "file")
-            .sort((left, right) => String(right.updated || right.date).localeCompare(String(left.updated || left.date)));
+            .sort((left, right) => {
+                const leftDate = left.updated || left.date || "";
+                const rightDate = right.updated || right.date || "";
+                return String(rightDate).localeCompare(String(leftDate));
+            });
 
         if (!documents.length) {
             this.elements.documentList.innerHTML = `
