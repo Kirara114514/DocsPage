@@ -184,7 +184,13 @@ class DocPage {
             if (link && link !== lastActive) {
                 lastActive?.classList.remove("is-active");
                 link.classList.add("is-active");
-                link.scrollIntoView({ block: "center", behavior: "smooth" });
+                // 在目录容器内居中滚动，不影响页面主滚动条
+                const tocBody = this.elements.tocBody;
+                if (tocBody) {
+                    const linkTop = link.offsetTop - tocBody.offsetTop;
+                    const target = linkTop - tocBody.clientHeight / 2 + link.offsetHeight / 2;
+                    tocBody.scrollTo({ top: target, behavior: "smooth" });
+                }
                 lastActive = link;
             }
         };
