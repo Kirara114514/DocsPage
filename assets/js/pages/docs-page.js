@@ -546,7 +546,10 @@ class DocsPage {
         const dateSorter = (left, right) => {
             const leftDate = left.updated || left.date || "";
             const rightDate = right.updated || right.date || "";
-            return String(rightDate).localeCompare(String(leftDate));
+            const cmp = String(rightDate).localeCompare(String(leftDate));
+            if (cmp !== 0) return cmp;
+            // 日期相同时（包括都为空），用文件修改时间兜底
+            return (right.modified || 0) - (left.modified || 0);
         };
 
         // 标签筛选（取交集）
@@ -672,7 +675,9 @@ class DocsPage {
             .sort((left, right) => {
                 const leftDate = left.updated || left.date || "";
                 const rightDate = right.updated || right.date || "";
-                return String(rightDate).localeCompare(String(leftDate));
+                const cmp = String(rightDate).localeCompare(String(leftDate));
+                if (cmp !== 0) return cmp;
+                return (right.modified || 0) - (left.modified || 0);
             });
 
         if (!documents.length) {
