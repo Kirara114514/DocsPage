@@ -270,6 +270,11 @@
     text-underline-offset: 3px;
 }
 
+.markdown-body img {
+    max-width: 100%;
+    height: auto;
+}
+
 .markdown-body code {
     padding: 0.16rem 0.42rem;
     border-radius: 8px;
