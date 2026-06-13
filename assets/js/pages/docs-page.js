@@ -66,16 +66,6 @@ class DocsPage {
         initEffects();
         this.hydrateFromUrl();
         this.bindEvents();
-
-        // 检测是否从其他页面返回（如 doc.html）
-        // 如果是，重置 selectedFolder 为 null（"全部"），因为 sessionStorage 可能保留旧值
-        if (document.referrer && document.referrer.includes('/doc/')) {
-            this.selectedFolder = null;
-            this.selectedSubFolder = null;
-            sessionStorage.removeItem('selectedFolder');
-            sessionStorage.removeItem('selectedSubFolder');
-        }
-
         await this.loadAndRender();
     }
 

@@ -233,11 +233,9 @@ class DocPage {
     }
 
     getBackLink() {
-        const category = this.documentInfo?.category;
-        if (!category) return "./docs.html";
-
-        const view = category === "日常记录" ? "pending" : category === "历史记录" ? "history" : "library";
-        return `./docs.html?view=${encodeURIComponent(view)}&folder=${encodeURIComponent(category)}`;
+        // 直接返回 docs.html，不带 folder 参数
+        // 这样用户返回时会看到全部文档，而不是某个特定分类
+        return "./docs.html";
     }
 
     renderError(message) {
