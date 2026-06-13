@@ -781,10 +781,10 @@ class DocsPage {
 const page = new DocsPage();
 page.init();
 
-// 处理浏览器 bfcache：从 doc.html 返回时重新加载数据
+// 处理浏览器 bfcache：从 doc.html 返回时强制刷新页面
 window.addEventListener("pageshow", (event) => {
     if (event.persisted) {
-        // 页面从 bfcache 恢复，重新加载数据
-        page.loadAndRender(true);
+        // 页面从 bfcache 恢复，强制刷新以确保数据正确加载
+        window.location.reload();
     }
 });
