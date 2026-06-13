@@ -221,7 +221,7 @@ class DocsPage {
                 fetch(url, { cache: "no-store" }).then((r) => {
                     if (!r.ok) throw new Error(`请求失败: ${r.status}`);
                     return r.json();
-                });
+            });
 
             const [indexData, siteText, tagsData, searchData] = await Promise.all([
                 loadIndexData(forceRefresh),
@@ -234,6 +234,8 @@ class DocsPage {
             this.tagsData = tagsData;
             this.searchData = searchData;
 
+            console.log("[docs] loadAndRender: indexData loaded, categories:", indexData?.data?.categories?.length ?? "null");
+
             try {
                 this.initFuse();
             } catch (e) {
@@ -242,6 +244,7 @@ class DocsPage {
 
             this.render();
         } catch (error) {
+            console.error("[docs] loadAndRender error:", error);
             this.renderError(error);
         }
     }
@@ -655,7 +658,9 @@ class DocsPage {
         if (!this.selectedFolder) {
             // "全部"：显示所有分类的文档
             const categories = getViewScopedCategories(this.indexData, this.currentView);
+            console.log("[docs] renderDocuments: selectedFolder=null, categories count:", categories.length);
             documents = categories.flatMap((category) => collectDocuments(category));
+            console.log("[docs] renderDocuments: documents count:", documents.length);
         } else {
             const category = findCategory(this.indexData, this.selectedFolder);
             if (category) {
