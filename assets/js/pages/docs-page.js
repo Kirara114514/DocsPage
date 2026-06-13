@@ -780,3 +780,11 @@ class DocsPage {
 
 const page = new DocsPage();
 page.init();
+
+// 处理浏览器 bfcache：从 doc.html 返回时重新加载数据
+window.addEventListener("pageshow", (event) => {
+    if (event.persisted) {
+        // 页面从 bfcache 恢复，重新加载数据
+        page.loadAndRender(true);
+    }
+});
