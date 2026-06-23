@@ -138,12 +138,21 @@ def extract_metadata_from_content(content: str) -> Metadata:
     )
 
 
-def generate_slug(title: str) -> str:
-    """把标题转成 URL 友好的 slug"""
+def generate_slug(title: str, existing_slugs: set[str] | None = None) -> str:
+    """把标题转成 URL 友好的 slug，自动去重（追加 -2、-3 等后缀）"""
     slug = title.lower()
     slug = re.sub(r'[^\w一-鿿]+', '-', slug)
     slug = slug.strip('-')
     slug = re.sub(r'-+', '-', slug)
+    
+    if existing_slugs is not None:
+        if slug in existing_slugs:
+            counter = 2
+            while f"{slug}-{counter}" in existing_slugs:
+                counter += 1
+            slug = f"{slug}-{counter}"
+        existing_slugs.add(slug)
+    
     return slug
 
 
@@ -242,9 +251,12 @@ def build_search_index(all_documents: list[dict], repo_path: Path) -> dict:
     }
 
 
-def scan_directory(root_path: Path, rel_path: str = "") -> tuple[dict, list[dict], list[str]]:
+def scan_directory(root_path: Path, rel_path: str = "", existing_slugs: set[str] | None = None) -> tuple[dict, list[dict], list[str]]:
     dir_name = root_path.name
     current_rel_path = f"{rel_path}/{dir_name}" if rel_path else dir_name
+    
+    if existing_slugs is None:
+        existing_slugs = set()
 
     result: dict = {
         "name": dir_name,
@@ -264,7 +276,7 @@ def scan_directory(root_path: Path, rel_path: str = "") -> tuple[dict, list[dict
             continue
 
         if item.is_dir():
-            child_tree, child_docs, child_errors = scan_directory(item, current_rel_path)
+            child_tree, child_docs, child_errors = scan_directory(item, current_rel_path, existing_slugs)
             if child_tree["file_count"] > 0 or child_tree["children"]:
                 result["children"].append(child_tree)
                 result["file_count"] += child_tree["file_count"]
@@ -297,7 +309,7 @@ def scan_directory(root_path: Path, rel_path: str = "") -> tuple[dict, list[dict
             "type": "file",
             "path": relative_document_path,
             "title": title,
-            "slug": generate_slug(title),
+            "slug": generate_slug(title, existing_slugs),
             "date": metadata.date,
             "updated": metadata.updated or metadata.date,
             "tags": list(metadata.tags),
