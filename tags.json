@@ -1,13 +1,109 @@
 {
-  "generated_at": "2026-06-23T16:43:47.236815",
+  "generated_at": "2026-08-01T21:16:02.761800",
   "tags": [
     {
-      "name": "Agent",
-      "count": 11,
+      "name": "AI编程",
+      "count": 17,
       "files": [
         {
           "title": "AI Agent 时代的效率冲击与职业方向反思",
           "full_path": "Tech-Docs/Agent工程化/AI Agent 时代的效率冲击与职业方向反思.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "AI 写码的掌控方法论：从逐行理解到系统性掌控",
+          "full_path": "Tech-Docs/Agent工程化/AI 写码的掌控方法论：从逐行理解到系统性掌控.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "AI编程中的上下文管理与记忆系统",
+          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "Agent 领域论文推荐阅读清单",
+          "full_path": "Tech-Docs/Agent工程化/Agent 领域论文推荐阅读清单.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
+          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "Agent 的 Skill：从技能到基础设施",
+          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Skill 生命周期维护：从被动修补到主动治理",
+          "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
+          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
+          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "企业安全代理对Agent使用体验的讨论",
+          "full_path": "Tech-Docs/Agent工程化/企业安全代理对Agent使用体验的讨论.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
+          "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
+          "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "用 Agent 管理个人文档库的工程实践",
+          "full_path": "Tech-Docs/Agent工程化/用 Agent 管理个人文档库的工程实践.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "工程治理",
+      "count": 115,
+      "files": [
+        {
+          "title": "AI Agent 时代的效率冲击与职业方向反思",
+          "full_path": "Tech-Docs/Agent工程化/AI Agent 时代的效率冲击与职业方向反思.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "AI 写码的掌控方法论：从逐行理解到系统性掌控",
+          "full_path": "Tech-Docs/Agent工程化/AI 写码的掌控方法论：从逐行理解到系统性掌控.md",
           "category": "Agent工程化"
         },
         {
@@ -46,9 +142,19 @@
           "category": "AI_Agent使用经验"
         },
         {
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        },
+        {
           "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
           "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
           "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
         },
         {
           "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
@@ -56,19 +162,529 @@
           "category": "AI_Agent使用经验"
         },
         {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
           "category": "Agent工程化"
+        },
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 委托与事件高级应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveProperty 详解",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式架构与 MVVM 模式",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
+        },
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "中小型团队的角色分工与协作流程",
+          "full_path": "Tech-Docs/工程协作/中小型团队的角色分工与协作流程.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "大型项目的代码Review流程与工具",
+          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "如何在多人项目中保证代码风格统一",
+          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "如何快速融入陌生团队（前30天生存指南）",
+          "full_path": "Tech-Docs/工程协作/如何快速融入陌生团队（前30天生存指南）.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "玩法程序员与工具程序员的核心差异",
+          "full_path": "Tech-Docs/工程协作/玩法程序员与工具程序员的核心差异.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "程序员如何与美术、策划高效对接",
+          "full_path": "Tech-Docs/工程协作/程序员如何与美术、策划高效对接.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "Unity Job System 与 Burst",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程与 UniTask 对比",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 多线程编程与线程安全",
+          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "NPC行为系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/NPC行为系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "UI 系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity 与 UE 常用功能类比",
+          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线与专题规划",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线总览",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "动画系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/动画系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "开发流程与引擎扩展迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "引擎架构与 Gameplay 框架迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "性能优化与分析迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/性能优化与分析迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "构建发布与热更新迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "渲染管线与图形技术迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "物理与碰撞系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "网络与多人游戏迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/网络与多人游戏迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "蓝图与 C++ 脚本协作要点",
+          "full_path": "Tech-Docs/引擎迁移/蓝图与 C++ 脚本协作要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "资源管理与资产管线迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "输入系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/输入系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "音频与特效系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/音频与特效系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Canvas 分层的正确姿势与性能收益",
+          "full_path": "Tech-Docs/性能优化/Canvas 分层的正确姿势与性能收益.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Mask 与 RectMask2D 的性能代价分析",
+          "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
+          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI Canvas 与元素管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 基础优化与资源管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI基础优化与资源管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 渲染与像素填充率优化",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "backdrop-filter: blur() 毛玻璃性能问题深度解析——从反直觉的性能现象到图形学本质",
+          "full_path": "Tech-Docs/性能优化/backdrop-filter毛玻璃性能问题深度解析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "大型UI列表的虚拟化渲染实现",
+          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "避免 UI Rebuild 的技巧与案例",
+          "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity 向量运算的三大陷阱与优化策略",
+          "full_path": "Tech-Docs/数学基础/Unity 向量运算的三大陷阱与优化策略.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 几何计算与常用算法：从公式理解到玩法落地",
+          "full_path": "Tech-Docs/数学基础/Unity_几何计算与算法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 坐标系与变换矩阵：从空间语义到工程实践",
+          "full_path": "Tech-Docs/数学基础/Unity_坐标系与变换矩阵.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 射线与碰撞检测：从物理查询到交互系统",
+          "full_path": "Tech-Docs/数学基础/Unity_射线与碰撞检测.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
+          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "三角函数在游戏开发中的高性能替代方法",
+          "full_path": "Tech-Docs/数学基础/三角函数在游戏开发中的高性能替代方法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "向量基础",
+          "full_path": "Tech-Docs/数学基础/向量基础.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "旋转与四元数",
+          "full_path": "Tech-Docs/数学基础/旋转与四元数.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "浮点误差导致的游戏 Bug 及修复方案",
+          "full_path": "Tech-Docs/数学基础/浮点误差导致的游戏 Bug 及修复方案.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "矩阵运算的性能影响：从 Transform 到 Shader",
+          "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "ECS与Unity传统开发结合",
+          "full_path": "Tech-Docs/架构设计/ECS与Unity传统开发结合.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS实现模式与数据管理",
+          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS架构核心理念",
+          "full_path": "Tech-Docs/架构设计/ECS架构核心理念.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS系统行为与交互模式",
+          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS调试优化与未来展望",
+          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "UI事件系统的架构优化（输入管理、事件总线）",
+          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "UI架构与工业化开发：从理想主义到工程实践的认知转变",
+          "full_path": "Tech-Docs/架构设计/UI架构与工业化开发：从理想主义到工程实践的认知转变.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线在大型项目中的应用",
+          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线的重要性",
+          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "基础事件总线实现",
+          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "架构设计知识图谱",
+          "full_path": "Tech-Docs/架构设计/架构设计知识图谱.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "红点系统性能优化：通用架构设计与缓存策略",
+          "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "高性能事件总线设计",
+          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "HybridCLR 热更新的接入流程与坑点",
+          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
+          "category": "热更新与构建发布"
+        },
+        {
+          "title": "Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）",
+          "full_path": "Tech-Docs/物理系统/Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "Unity物理系统基础",
+          "full_path": "Tech-Docs/物理系统/Unity物理系统基础.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "手写物理系统入门与实践",
+          "full_path": "Tech-Docs/物理系统/手写物理系统入门与实践.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理引擎底层原理剖析",
+          "full_path": "Tech-Docs/物理系统/物理引擎底层原理剖析.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理系统高级主题与前沿探索",
+          "full_path": "Tech-Docs/物理系统/物理系统高级主题与前沿探索.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理系统高级特性与优化",
+          "full_path": "Tech-Docs/物理系统/物理系统高级特性与优化.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理约束求解与稳定性",
+          "full_path": "Tech-Docs/物理系统/物理约束求解与稳定性.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
+          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "团队协作与优秀开发者",
+          "full_path": "Tech-Docs/职业发展/团队协作与优秀开发者.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "游戏开发专业方向探索",
+          "full_path": "Tech-Docs/职业发展/游戏开发专业方向探索.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "游戏开发团队角色与分工",
+          "full_path": "Tech-Docs/职业发展/游戏开发团队角色与分工.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "玩法程序员成长路径",
+          "full_path": "Tech-Docs/职业发展/玩法程序员成长路径.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "大型项目的资源命名与组织规范",
+          "full_path": "Tech-Docs/资源管理/大型项目的资源命名与组织规范.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源依赖关系优化：减少包体与内存占用",
+          "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
         }
       ]
     },
     {
-      "name": "AI编程",
-      "count": 9,
+      "name": "Agent",
+      "count": 18,
       "files": [
         {
           "title": "AI Agent 时代的效率冲击与职业方向反思",
           "full_path": "Tech-Docs/Agent工程化/AI Agent 时代的效率冲击与职业方向反思.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "AI 写码的掌控方法论：从逐行理解到系统性掌控",
+          "full_path": "Tech-Docs/Agent工程化/AI 写码的掌控方法论：从逐行理解到系统性掌控.md",
           "category": "Agent工程化"
         },
         {
@@ -77,14 +693,39 @@
           "category": "AI_Agent使用经验"
         },
         {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Agent 领域论文推荐阅读清单",
+          "full_path": "Tech-Docs/Agent工程化/Agent 领域论文推荐阅读清单.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
+          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
+          "category": "Agent 工程化"
+        },
+        {
           "title": "Agent 的 Skill：从技能到基础设施",
           "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
           "category": "AI工程化"
         },
         {
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
+        },
+        {
           "title": "Skill 生命周期维护：从被动修补到主动治理",
           "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
           "category": "Agent工程化"
+        },
+        {
+          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
+          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
+          "category": "Agent 工程化"
         },
         {
           "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
@@ -97,9 +738,19 @@
           "category": "AI_Agent使用经验"
         },
         {
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        },
+        {
           "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
           "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
           "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
         },
         {
           "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
@@ -107,15 +758,20 @@
           "category": "AI_Agent使用经验"
         },
         {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "用 Agent 管理个人文档库的工程实践",
+          "full_path": "Tech-Docs/Agent工程化/用 Agent 管理个人文档库的工程实践.md",
           "category": "Agent工程化"
         }
       ]
     },
     {
       "name": "职业发展",
-      "count": 8,
+      "count": 12,
       "files": [
         {
           "title": "AI Agent 时代的效率冲击与职业方向反思",
@@ -156,27 +812,37 @@
           "title": "UI架构与工业化开发：从理想主义到工程实践的认知转变",
           "full_path": "Tech-Docs/架构设计/UI架构与工业化开发：从理想主义到工程实践的认知转变.md",
           "category": "架构设计"
+        },
+        {
+          "title": "团队协作与优秀开发者",
+          "full_path": "Tech-Docs/职业发展/团队协作与优秀开发者.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "游戏开发专业方向探索",
+          "full_path": "Tech-Docs/职业发展/游戏开发专业方向探索.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "游戏开发团队角色与分工",
+          "full_path": "Tech-Docs/职业发展/游戏开发团队角色与分工.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "玩法程序员成长路径",
+          "full_path": "Tech-Docs/职业发展/玩法程序员成长路径.md",
+          "category": "职业发展"
         }
       ]
     },
     {
       "name": "工程化",
-      "count": 8,
+      "count": 6,
       "files": [
         {
           "title": "AI Agent 时代的效率冲击与职业方向反思",
           "full_path": "Tech-Docs/Agent工程化/AI Agent 时代的效率冲击与职业方向反思.md",
           "category": "Agent工程化"
-        },
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "Agent 的 Skill：从技能到基础设施",
-          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
-          "category": "AI工程化"
         },
         {
           "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
@@ -206,9 +872,570 @@
       ]
     },
     {
-      "name": "Skill",
-      "count": 5,
+      "name": "工程实践",
+      "count": 110,
       "files": [
+        {
+          "title": "AI 写码的掌控方法论：从逐行理解到系统性掌控",
+          "full_path": "Tech-Docs/Agent工程化/AI 写码的掌控方法论：从逐行理解到系统性掌控.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "AI编程中的上下文管理与记忆系统",
+          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
+          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "Agent 的 Skill：从技能到基础设施",
+          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "Skill 生命周期维护：从被动修补到主动治理",
+          "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
+          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
+          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "企业安全代理对Agent使用体验的讨论",
+          "full_path": "Tech-Docs/Agent工程化/企业安全代理对Agent使用体验的讨论.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
+          "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
+          "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "用 Agent 管理个人文档库的工程实践",
+          "full_path": "Tech-Docs/Agent工程化/用 Agent 管理个人文档库的工程实践.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 委托与事件高级应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveProperty 详解",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式架构与 MVVM 模式",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
+        },
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "大型项目的代码Review流程与工具",
+          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "如何在多人项目中保证代码风格统一",
+          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "如何快速融入陌生团队（前30天生存指南）",
+          "full_path": "Tech-Docs/工程协作/如何快速融入陌生团队（前30天生存指南）.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "玩法程序员与工具程序员的核心差异",
+          "full_path": "Tech-Docs/工程协作/玩法程序员与工具程序员的核心差异.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "Unity Job System 与 Burst",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程与 UniTask 对比",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 多线程编程与线程安全",
+          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "NPC行为系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/NPC行为系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "UI 系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity 与 UE 常用功能类比",
+          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线与专题规划",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线总览",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "动画系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/动画系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "开发流程与引擎扩展迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "引擎架构与 Gameplay 框架迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "性能优化与分析迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/性能优化与分析迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "构建发布与热更新迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "渲染管线与图形技术迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "物理与碰撞系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "网络与多人游戏迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/网络与多人游戏迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "蓝图与 C++ 脚本协作要点",
+          "full_path": "Tech-Docs/引擎迁移/蓝图与 C++ 脚本协作要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "资源管理与资产管线迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "输入系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/输入系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "音频与特效系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/音频与特效系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Canvas 分层的正确姿势与性能收益",
+          "full_path": "Tech-Docs/性能优化/Canvas 分层的正确姿势与性能收益.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Mask 与 RectMask2D 的性能代价分析",
+          "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
+          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI Canvas 与元素管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 基础优化与资源管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI基础优化与资源管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 渲染与像素填充率优化",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "backdrop-filter: blur() 毛玻璃性能问题深度解析——从反直觉的性能现象到图形学本质",
+          "full_path": "Tech-Docs/性能优化/backdrop-filter毛玻璃性能问题深度解析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "大型UI列表的虚拟化渲染实现",
+          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "避免 UI Rebuild 的技巧与案例",
+          "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity 向量运算的三大陷阱与优化策略",
+          "full_path": "Tech-Docs/数学基础/Unity 向量运算的三大陷阱与优化策略.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 几何计算与常用算法：从公式理解到玩法落地",
+          "full_path": "Tech-Docs/数学基础/Unity_几何计算与算法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 坐标系与变换矩阵：从空间语义到工程实践",
+          "full_path": "Tech-Docs/数学基础/Unity_坐标系与变换矩阵.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 射线与碰撞检测：从物理查询到交互系统",
+          "full_path": "Tech-Docs/数学基础/Unity_射线与碰撞检测.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
+          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "三角函数在游戏开发中的高性能替代方法",
+          "full_path": "Tech-Docs/数学基础/三角函数在游戏开发中的高性能替代方法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "向量基础",
+          "full_path": "Tech-Docs/数学基础/向量基础.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "旋转与四元数",
+          "full_path": "Tech-Docs/数学基础/旋转与四元数.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "浮点误差导致的游戏 Bug 及修复方案",
+          "full_path": "Tech-Docs/数学基础/浮点误差导致的游戏 Bug 及修复方案.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "矩阵运算的性能影响：从 Transform 到 Shader",
+          "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "ECS与Unity传统开发结合",
+          "full_path": "Tech-Docs/架构设计/ECS与Unity传统开发结合.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS实现模式与数据管理",
+          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS架构核心理念",
+          "full_path": "Tech-Docs/架构设计/ECS架构核心理念.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS系统行为与交互模式",
+          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS调试优化与未来展望",
+          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "UI事件系统的架构优化（输入管理、事件总线）",
+          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "UI架构与工业化开发：从理想主义到工程实践的认知转变",
+          "full_path": "Tech-Docs/架构设计/UI架构与工业化开发：从理想主义到工程实践的认知转变.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线在大型项目中的应用",
+          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线的重要性",
+          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "基础事件总线实现",
+          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "架构设计知识图谱",
+          "full_path": "Tech-Docs/架构设计/架构设计知识图谱.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "红点系统性能优化：通用架构设计与缓存策略",
+          "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "高性能事件总线设计",
+          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "HybridCLR 热更新的接入流程与坑点",
+          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
+          "category": "热更新与构建发布"
+        },
+        {
+          "title": "Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）",
+          "full_path": "Tech-Docs/物理系统/Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "Unity物理系统基础",
+          "full_path": "Tech-Docs/物理系统/Unity物理系统基础.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "手写物理系统入门与实践",
+          "full_path": "Tech-Docs/物理系统/手写物理系统入门与实践.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理引擎底层原理剖析",
+          "full_path": "Tech-Docs/物理系统/物理引擎底层原理剖析.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理系统高级主题与前沿探索",
+          "full_path": "Tech-Docs/物理系统/物理系统高级主题与前沿探索.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理系统高级特性与优化",
+          "full_path": "Tech-Docs/物理系统/物理系统高级特性与优化.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "物理约束求解与稳定性",
+          "full_path": "Tech-Docs/物理系统/物理约束求解与稳定性.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
+          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "团队协作与优秀开发者",
+          "full_path": "Tech-Docs/职业发展/团队协作与优秀开发者.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "游戏开发专业方向探索",
+          "full_path": "Tech-Docs/职业发展/游戏开发专业方向探索.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "玩法程序员成长路径",
+          "full_path": "Tech-Docs/职业发展/玩法程序员成长路径.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "大型项目的资源命名与组织规范",
+          "full_path": "Tech-Docs/资源管理/大型项目的资源命名与组织规范.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源依赖关系优化：减少包体与内存占用",
+          "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "架构设计",
+      "count": 58,
+      "files": [
+        {
+          "title": "AI 写码的掌控方法论：从逐行理解到系统性掌控",
+          "full_path": "Tech-Docs/Agent工程化/AI 写码的掌控方法论：从逐行理解到系统性掌控.md",
+          "category": "Agent工程化"
+        },
         {
           "title": "AI编程中的上下文管理与记忆系统",
           "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
@@ -233,96 +1460,6 @@
           "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
           "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
           "category": "AI工程化"
-        }
-      ]
-    },
-    {
-      "name": "多Agent系统",
-      "count": 6,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "Agent 的 Skill：从技能到基础设施",
-          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
-          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
-          "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
-          "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "上下文管理",
-      "count": 3,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "Agent 的 Skill：从技能到基础设施",
-          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "知识库",
-      "count": 1,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        }
-      ]
-    },
-    {
-      "name": "索引",
-      "count": 1,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        }
-      ]
-    },
-    {
-      "name": "系统设计",
-      "count": 4,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
         },
         {
           "title": "企业安全代理对Agent使用体验的讨论",
@@ -335,45 +1472,19 @@
           "category": "AI_Agent使用经验"
         },
         {
-          "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
-          "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
-          "category": "AI_Agent使用经验"
-        }
-      ]
-    },
-    {
-      "name": "架构设计",
-      "count": 53,
-      "files": [
-        {
-          "title": "AI编程中的上下文管理与记忆系统",
-          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "Agent 的 Skill：从技能到基础设施",
-          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
-          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "企业安全代理对Agent使用体验的讨论",
-          "full_path": "Tech-Docs/Agent工程化/企业安全代理对Agent使用体验的讨论.md",
-          "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
-          "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
-          "category": "AI_Agent使用经验"
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
         },
         {
           "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
           "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
           "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
         },
         {
           "title": "C# 反射在 Unity 中的应用",
@@ -613,28 +1724,13 @@
       ]
     },
     {
-      "name": "工程实践",
-      "count": 96,
+      "name": "系统设计",
+      "count": 5,
       "files": [
         {
           "title": "AI编程中的上下文管理与记忆系统",
           "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
           "category": "AI_Agent使用经验"
-        },
-        {
-          "title": "Agent 的 Skill：从技能到基础设施",
-          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "Skill 生命周期维护：从被动修补到主动治理",
-          "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
-          "category": "Agent工程化"
-        },
-        {
-          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
-          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
-          "category": "AI工程化"
         },
         {
           "title": "企业安全代理对Agent使用体验的讨论",
@@ -647,99 +1743,308 @@
           "category": "AI_Agent使用经验"
         },
         {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
+          "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
+          "category": "AI_Agent使用经验"
+        }
+      ]
+    },
+    {
+      "name": "多Agent系统",
+      "count": 12,
+      "files": [
+        {
+          "title": "AI编程中的上下文管理与记忆系统",
+          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
+          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "Agent 的 Skill：从技能到基础设施",
+          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
+          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
+          "category": "Agent 工程化"
+        },
+        {
+          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
+          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
+          "category": "AI工程化"
+        },
+        {
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "多 Agent 协作自动化的实践困境：从主观能动性迷思到严格流程设计",
+          "full_path": "Tech-Docs/Agent工程化/多Agent协作自动化的实践困境：从主观能动性迷思到严格流程设计.md",
+          "category": "AI_Agent使用经验"
+        },
+        {
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
+        },
+        {
           "title": "多Agent角色扮演系统的架构设计：通信、记忆与自动化调度",
           "full_path": "Tech-Docs/Agent工程化/多Agent角色扮演系统的架构设计：通信、记忆与自动化调度.md",
           "category": "AI_Agent使用经验"
         },
         {
-          "title": "C# 反射在 Unity 中的应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
-          "category": "C#与响应式编程"
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "C# 委托与事件高级应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
-          "category": "C#与响应式编程"
+          "title": "用 Agent 管理个人文档库的工程实践",
+          "full_path": "Tech-Docs/Agent工程化/用 Agent 管理个人文档库的工程实践.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Skill体系",
+      "count": 8,
+      "files": [
+        {
+          "title": "AI编程中的上下文管理与记忆系统",
+          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
+          "category": "AI_Agent使用经验"
         },
         {
-          "title": "C# 表达式树与性能优化",
-          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
-          "category": "C#与响应式编程"
+          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
+          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
+          "category": "Agent 工程化"
         },
         {
-          "title": "ObservableProperty 高级封装",
-          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
-          "category": "C#与响应式编程"
+          "title": "Agent 的 Skill：从技能到基础设施",
+          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
+          "category": "AI工程化"
         },
         {
-          "title": "ReactiveCommand 与 UI 交互",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
-          "category": "C#与响应式编程"
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "ReactiveProperty 详解",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
-          "category": "C#与响应式编程"
+          "title": "Skill 生命周期维护：从被动修补到主动治理",
+          "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "UniRx 性能分析与优化",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
-          "category": "C#与响应式编程"
+          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
+          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
+          "category": "Agent 工程化"
         },
         {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
+          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
+          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
+          "category": "AI工程化"
         },
         {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "上下文管理",
+      "count": 7,
+      "files": [
+        {
+          "title": "AI编程中的上下文管理与记忆系统",
+          "full_path": "Tech-Docs/Agent工程化/AI编程中的上下文管理与记忆系统.md",
+          "category": "AI_Agent使用经验"
         },
         {
-          "title": "Unity 生命周期中的响应式编程",
-          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
-          "category": "C#与响应式编程"
+          "title": "Agent 领域论文推荐阅读清单",
+          "full_path": "Tech-Docs/Agent工程化/Agent 领域论文推荐阅读清单.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "响应式架构与 MVVM 模式",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
-          "category": "C#与响应式编程"
+          "title": "Agent 的 Skill：从技能到基础设施",
+          "full_path": "Tech-Docs/Agent工程化/Agent的Skill：从技能到基础设施.md",
+          "category": "AI工程化"
         },
         {
-          "title": "响应式集合与数据绑定",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
-          "category": "C#与响应式编程"
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
-          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
-          "category": "KiraFramework讲解和迭代日志"
+          "title": "多 Agent 系统中的上下文隔离：经验现象、风险维度与验证方法",
+          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
-          "category": "内存管理"
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
+          "title": "用 Agent 管理个人文档库的工程实践",
+          "full_path": "Tech-Docs/Agent工程化/用 Agent 管理个人文档库的工程实践.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Skill",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "自维护",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "ASMP",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Heartbeat",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "子Agent",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Skill维护",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "安全审计",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "回滚",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Holdout",
+      "count": 1,
+      "files": [
+        {
+          "title": "ASMP：Agent自维护规范",
+          "full_path": "Tech-Docs/Agent工程化/ASMP：Agent自维护规范.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "Agent编排",
+      "count": 3,
+      "files": [
+        {
+          "title": "Agent 领域论文推荐阅读清单",
+          "full_path": "Tech-Docs/Agent工程化/Agent 领域论文推荐阅读清单.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
-          "category": "内存管理"
+          "title": "Skill 命中率优化：从描述优化到检索架构的三层递进",
+          "full_path": "Tech-Docs/Agent工程化/Skill 命中率优化：从描述优化到检索架构的三层递进.md",
+          "category": "Agent工程化"
         },
         {
-          "title": "Unity GC 基础概念与工作原理",
-          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
+          "title": "框架塑造智能：Agent 脚手架如何改变模型的实际表现",
+          "full_path": "Tech-Docs/Agent工程化/框架塑造智能：Agent 脚手架如何改变模型的实际表现.md",
+          "category": "Agent工程化"
+        }
+      ]
+    },
+    {
+      "name": "协作流程",
+      "count": 8,
+      "files": [
+        {
+          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
+          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
+          "category": "AI工程化"
         },
         {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
+          "title": "团队Agent知识共享体系：从个人效能到协作层的基础设施设计",
+          "full_path": "Tech-Docs/Agent工程化/团队Agent知识共享体系：从个人效能到协作层的基础设施设计.md",
+          "category": "Agent工程化"
+        },
+        {
+          "title": "中小型团队的角色分工与协作流程",
+          "full_path": "Tech-Docs/工程协作/中小型团队的角色分工与协作流程.md",
+          "category": "工程协作"
         },
         {
           "title": "大型项目的代码Review流程与工具",
@@ -752,79 +2057,9 @@
           "category": "工程协作"
         },
         {
-          "title": "如何快速融入陌生团队（前30天生存指南）",
-          "full_path": "Tech-Docs/工程协作/如何快速融入陌生团队（前30天生存指南）.md",
+          "title": "程序员如何与美术、策划高效对接",
+          "full_path": "Tech-Docs/工程协作/程序员如何与美术、策划高效对接.md",
           "category": "工程协作"
-        },
-        {
-          "title": "玩法程序员与工具程序员的核心差异",
-          "full_path": "Tech-Docs/工程协作/玩法程序员与工具程序员的核心差异.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "Unity Job System 与 Burst",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "UniTask 高级封装与实践",
-          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 协程与 UniTask 对比",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 协程基础与扩展",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 多线程编程与线程安全",
-          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "C#到C++语言迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "NPC行为系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/NPC行为系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "UI 系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity 与 UE 常用功能类比",
-          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线与专题规划",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线总览",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "动画系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/动画系统迁移要点.md",
-          "category": "引擎迁移"
         },
         {
           "title": "开发流程与引擎扩展迁移要点",
@@ -832,329 +2067,9 @@
           "category": "引擎迁移"
         },
         {
-          "title": "引擎架构与 Gameplay 框架迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "性能优化与分析迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/性能优化与分析迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "构建发布与热更新迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "渲染管线与图形技术迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "物理与碰撞系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "网络与多人游戏迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/网络与多人游戏迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "蓝图与 C++ 脚本协作要点",
-          "full_path": "Tech-Docs/引擎迁移/蓝图与 C++ 脚本协作要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "资源管理与资产管线迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "输入系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/输入系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "音频与特效系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/音频与特效系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Canvas 分层的正确姿势与性能收益",
-          "full_path": "Tech-Docs/性能优化/Canvas 分层的正确姿势与性能收益.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Mask 与 RectMask2D 的性能代价分析",
-          "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
-          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI Canvas 与元素管理",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI 基础优化与资源管理",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI基础优化与资源管理.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI 渲染与像素填充率优化",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI 高级优化与注意事项",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "backdrop-filter: blur() 毛玻璃性能问题深度解析——从反直觉的性能现象到图形学本质",
-          "full_path": "Tech-Docs/性能优化/backdrop-filter毛玻璃性能问题深度解析.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "大型UI列表的虚拟化渲染实现",
-          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "避免 UI Rebuild 的技巧与案例",
-          "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity 向量运算的三大陷阱与优化策略",
-          "full_path": "Tech-Docs/数学基础/Unity 向量运算的三大陷阱与优化策略.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 几何计算与常用算法：从公式理解到玩法落地",
-          "full_path": "Tech-Docs/数学基础/Unity_几何计算与算法.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 坐标系与变换矩阵：从空间语义到工程实践",
-          "full_path": "Tech-Docs/数学基础/Unity_坐标系与变换矩阵.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 射线与碰撞检测：从物理查询到交互系统",
-          "full_path": "Tech-Docs/数学基础/Unity_射线与碰撞检测.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
-          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "三角函数在游戏开发中的高性能替代方法",
-          "full_path": "Tech-Docs/数学基础/三角函数在游戏开发中的高性能替代方法.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "向量基础",
-          "full_path": "Tech-Docs/数学基础/向量基础.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "旋转与四元数",
-          "full_path": "Tech-Docs/数学基础/旋转与四元数.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "浮点误差导致的游戏 Bug 及修复方案",
-          "full_path": "Tech-Docs/数学基础/浮点误差导致的游戏 Bug 及修复方案.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "矩阵运算的性能影响：从 Transform 到 Shader",
-          "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "ECS与Unity传统开发结合",
-          "full_path": "Tech-Docs/架构设计/ECS与Unity传统开发结合.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS实现模式与数据管理",
-          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS架构核心理念",
-          "full_path": "Tech-Docs/架构设计/ECS架构核心理念.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS系统行为与交互模式",
-          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS调试优化与未来展望",
-          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "UI事件系统的架构优化（输入管理、事件总线）",
-          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "UI架构与工业化开发：从理想主义到工程实践的认知转变",
-          "full_path": "Tech-Docs/架构设计/UI架构与工业化开发：从理想主义到工程实践的认知转变.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "事件总线在大型项目中的应用",
-          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "事件总线的重要性",
-          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "基础事件总线实现",
-          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "架构设计知识图谱",
-          "full_path": "Tech-Docs/架构设计/架构设计知识图谱.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "红点系统性能优化：通用架构设计与缓存策略",
-          "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "高性能事件总线设计",
-          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "HybridCLR 热更新的接入流程与坑点",
-          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
-          "category": "热更新与构建发布"
-        },
-        {
-          "title": "Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）",
-          "full_path": "Tech-Docs/物理系统/Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "Unity物理系统基础",
-          "full_path": "Tech-Docs/物理系统/Unity物理系统基础.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "手写物理系统入门与实践",
-          "full_path": "Tech-Docs/物理系统/手写物理系统入门与实践.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "物理引擎底层原理剖析",
-          "full_path": "Tech-Docs/物理系统/物理引擎底层原理剖析.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "物理系统高级主题与前沿探索",
-          "full_path": "Tech-Docs/物理系统/物理系统高级主题与前沿探索.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "物理系统高级特性与优化",
-          "full_path": "Tech-Docs/物理系统/物理系统高级特性与优化.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "物理约束求解与稳定性",
-          "full_path": "Tech-Docs/物理系统/物理约束求解与稳定性.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
-          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
-          "category": "算法与数据结构"
-        },
-        {
-          "title": "资源依赖关系优化：减少包体与内存占用",
-          "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "title": "大型项目的资源命名与组织规范",
+          "full_path": "Tech-Docs/资源管理/大型项目的资源命名与组织规范.md",
           "category": "资源管理"
-        }
-      ]
-    },
-    {
-      "name": "维护",
-      "count": 2,
-      "files": [
-        {
-          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
-          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
-          "category": "Agent 工程化"
-        },
-        {
-          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
-          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
-          "category": "Agent 工程化"
-        }
-      ]
-    },
-    {
-      "name": "迁移",
-      "count": 1,
-      "files": [
-        {
-          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
-          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
-          "category": "Agent 工程化"
-        }
-      ]
-    },
-    {
-      "name": "自我迭代",
-      "count": 1,
-      "files": [
-        {
-          "title": "Agent 如何自动维护已有 Skills：从迁移到自我迭代",
-          "full_path": "Tech-Docs/Agent工程化/Agent如何自动维护已有Skills：从迁移到自我迭代.md",
-          "category": "Agent 工程化"
-        }
-      ]
-    },
-    {
-      "name": "Skill体系",
-      "count": 1,
-      "files": [
-        {
-          "title": "Skill 生命周期维护：从被动修补到主动治理",
-          "full_path": "Tech-Docs/Agent工程化/Skill生命周期维护-从被动修补到主动治理.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "迭代",
-      "count": 1,
-      "files": [
-        {
-          "title": "Skill 迭代维护的轻量化理论模型：从论文到可执行方案",
-          "full_path": "Tech-Docs/Agent工程化/Skill迭代维护的轻量化理论模型：从论文到可执行方案.md",
-          "category": "Agent 工程化"
         }
       ]
     },
@@ -1196,38 +2111,13 @@
       ]
     },
     {
-      "name": "协作流程",
-      "count": 6,
+      "name": "安全架构",
+      "count": 1,
       "files": [
         {
-          "title": "个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系",
-          "full_path": "Tech-Docs/Agent工程化/个人Agent与工业化Agent：从工程化实践到团队级AI辅助开发体系.md",
-          "category": "AI工程化"
-        },
-        {
-          "title": "中小型团队的角色分工与协作流程",
-          "full_path": "Tech-Docs/工程协作/中小型团队的角色分工与协作流程.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "大型项目的代码Review流程与工具",
-          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "如何在多人项目中保证代码风格统一",
-          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "程序员如何与美术、策划高效对接",
-          "full_path": "Tech-Docs/工程协作/程序员如何与美术、策划高效对接.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "开发流程与引擎扩展迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
-          "category": "引擎迁移"
+          "title": "企业安全代理对Agent使用体验的讨论",
+          "full_path": "Tech-Docs/Agent工程化/企业安全代理对Agent使用体验的讨论.md",
+          "category": "AI_Agent使用经验"
         }
       ]
     },
@@ -1283,96 +2173,8 @@
       ]
     },
     {
-      "name": "多Agent架构",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "上下文纯度",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "Agent工程化",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "spawn决策",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "设计模式",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "模型分层",
-      "count": 1,
-      "files": [
-        {
-          "title": "多Agent架构中上下文纯度与执行质量的关系",
-          "full_path": "Tech-Docs/Agent工程化/多Agent架构中上下文纯度与执行质量的关系.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "Agent编排",
-      "count": 1,
-      "files": [
-        {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "提示词工程",
-      "count": 1,
-      "files": [
-        {
-          "title": "框架即智能：Agent 编排深度如何决定 LLM 的实际表现",
-          "full_path": "Tech-Docs/Agent工程化/框架即智能：Agent 编排深度如何决定 LLM 的实际表现.md",
-          "category": "Agent工程化"
-        }
-      ]
-    },
-    {
-      "name": "C#",
-      "count": 54,
+      "name": "Unity",
+      "count": 109,
       "files": [
         {
           "title": "C# 反射在 Unity 中的应用",
@@ -1463,16 +2265,6 @@
           "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
           "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
           "category": "内存管理"
-        },
-        {
-          "title": "大型项目的代码Review流程与工具",
-          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "如何在多人项目中保证代码风格统一",
-          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
-          "category": "工程协作"
         },
         {
           "title": "Unity Job System 与 Burst",
@@ -1508,267 +2300,6 @@
           "title": "C#到C++语言迁移要点",
           "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
           "category": "引擎迁移"
-        },
-        {
-          "title": "Unity 与 UE 常用功能类比",
-          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线与专题规划",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线总览",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "引擎架构与 Gameplay 框架迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "C#、UE C++ 与 Lua GC 机制深度对比",
-          "full_path": "Tech-Docs/性能优化/C#-UE-Lua-GC机制深度对比.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity 向量运算的三大陷阱与优化策略",
-          "full_path": "Tech-Docs/数学基础/Unity 向量运算的三大陷阱与优化策略.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 几何计算与常用算法：从公式理解到玩法落地",
-          "full_path": "Tech-Docs/数学基础/Unity_几何计算与算法.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 坐标系与变换矩阵：从空间语义到工程实践",
-          "full_path": "Tech-Docs/数学基础/Unity_坐标系与变换矩阵.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 射线与碰撞检测：从物理查询到交互系统",
-          "full_path": "Tech-Docs/数学基础/Unity_射线与碰撞检测.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
-          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "三角函数在游戏开发中的高性能替代方法",
-          "full_path": "Tech-Docs/数学基础/三角函数在游戏开发中的高性能替代方法.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "向量基础",
-          "full_path": "Tech-Docs/数学基础/向量基础.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "旋转与四元数",
-          "full_path": "Tech-Docs/数学基础/旋转与四元数.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "浮点误差导致的游戏 Bug 及修复方案",
-          "full_path": "Tech-Docs/数学基础/浮点误差导致的游戏 Bug 及修复方案.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "矩阵运算的性能影响：从 Transform 到 Shader",
-          "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
-          "category": "数学基础"
-        },
-        {
-          "title": "ECS与Unity传统开发结合",
-          "full_path": "Tech-Docs/架构设计/ECS与Unity传统开发结合.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS实现模式与数据管理",
-          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS架构核心理念",
-          "full_path": "Tech-Docs/架构设计/ECS架构核心理念.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS系统行为与交互模式",
-          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "ECS调试优化与未来展望",
-          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "基础事件总线实现",
-          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "HybridCLR 热更新的接入流程与坑点",
-          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
-          "category": "热更新与构建发布"
-        },
-        {
-          "title": "Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）",
-          "full_path": "Tech-Docs/物理系统/Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "Unity物理系统基础",
-          "full_path": "Tech-Docs/物理系统/Unity物理系统基础.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "手写物理系统入门与实践",
-          "full_path": "Tech-Docs/物理系统/手写物理系统入门与实践.md",
-          "category": "物理系统"
-        },
-        {
-          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
-          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
-          "category": "算法与数据结构"
-        },
-        {
-          "title": "资源依赖关系优化：减少包体与内存占用",
-          "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
-          "category": "资源管理"
-        }
-      ]
-    },
-    {
-      "name": "Unity",
-      "count": 80,
-      "files": [
-        {
-          "title": "C# 反射在 Unity 中的应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "C# 委托与事件高级应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "C# 表达式树与性能优化",
-          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ObservableProperty 高级封装",
-          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveCommand 与 UI 交互",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveProperty 详解",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 性能分析与优化",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "Unity 生命周期中的响应式编程",
-          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式架构与 MVVM 模式",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式集合与数据绑定",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
-          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
-          "category": "KiraFramework讲解和迭代日志"
-        },
-        {
-          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 基础概念与工作原理",
-          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity Job System 与 Burst",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "UniTask 高级封装与实践",
-          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 协程与 UniTask 对比",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 协程基础与扩展",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 多线程编程与线程安全",
-          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
-          "category": "并发与异步"
         },
         {
           "title": "NPC行为系统迁移要点",
@@ -1976,8 +2507,23 @@
           "category": "架构设计"
         },
         {
+          "title": "UI事件系统的架构优化（输入管理、事件总线）",
+          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
+          "category": "架构设计"
+        },
+        {
           "title": "UI架构与工业化开发：从理想主义到工程实践的认知转变",
           "full_path": "Tech-Docs/架构设计/UI架构与工业化开发：从理想主义到工程实践的认知转变.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线在大型项目中的应用",
+          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线的重要性",
+          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
           "category": "架构设计"
         },
         {
@@ -2036,9 +2582,124 @@
           "category": "物理系统"
         },
         {
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "字符串算法详解：匹配、回文、滑动窗口与工程性能",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_字符串算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        },
+        {
           "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
           "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
           "category": "算法与数据结构"
+        },
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "复杂度分析与数组基础",
+          "full_path": "Tech-Docs/算法与数据结构/复杂度分析与数组基础.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "排序算法详解",
+          "full_path": "Tech-Docs/算法与数据结构/排序算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "算法与数据结构学习路线",
+          "full_path": "Tech-Docs/算法与数据结构/算法与数据结构学习路线.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏开发专业方向探索",
+          "full_path": "Tech-Docs/职业发展/游戏开发专业方向探索.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "玩法程序员成长路径",
+          "full_path": "Tech-Docs/职业发展/玩法程序员成长路径.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "LRU 缓存算法在对象池中的应用",
+          "full_path": "Tech-Docs/资源管理/LRU缓存算法在对象池中的应用.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "基于 UnityEngine.Pool 封装对象池",
+          "full_path": "Tech-Docs/资源管理/基于UnityEngine.Pool封装对象池.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "大型项目的资源命名与组织规范",
+          "full_path": "Tech-Docs/资源管理/大型项目的资源命名与组织规范.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
         },
         {
           "title": "对象池高级扩展功能",
@@ -2046,78 +2707,25 @@
           "category": "资源管理"
         },
         {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        },
+        {
           "title": "资源依赖关系优化：减少包体与内存占用",
           "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
           "category": "资源管理"
         }
       ]
     },
     {
-      "name": "Reflection",
-      "count": 2,
-      "files": [
-        {
-          "title": "C# 反射在 Unity 中的应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "C# 表达式树与性能优化",
-          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
-          "category": "C#与响应式编程"
-        }
-      ]
-    },
-    {
-      "name": "代码裁剪",
-      "count": 2,
-      "files": [
-        {
-          "title": "C# 反射在 Unity 中的应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "C# 表达式树与性能优化",
-          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
-          "category": "C#与响应式编程"
-        }
-      ]
-    },
-    {
-      "name": "代码生成",
-      "count": 5,
-      "files": [
-        {
-          "title": "C# 反射在 Unity 中的应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "C# 表达式树与性能优化",
-          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
-          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
-          "category": "KiraFramework讲解和迭代日志"
-        },
-        {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "开发流程与引擎扩展迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
-          "category": "引擎迁移"
-        }
-      ]
-    },
-    {
-      "name": "性能优化",
-      "count": 51,
+      "name": "C#",
+      "count": 67,
       "files": [
         {
           "title": "C# 反射在 Unity 中的应用",
@@ -2132,6 +2740,352 @@
         {
           "title": "C# 表达式树与性能优化",
           "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveProperty 详解",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式架构与 MVVM 模式",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
+        },
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "大型项目的代码Review流程与工具",
+          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "如何在多人项目中保证代码风格统一",
+          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
+          "category": "工程协作"
+        },
+        {
+          "title": "Unity Job System 与 Burst",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程与 UniTask 对比",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 多线程编程与线程安全",
+          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity 与 UE 常用功能类比",
+          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线与专题规划",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线总览",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "引擎架构与 Gameplay 框架迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "C#、UE C++ 与 Lua GC 机制深度对比",
+          "full_path": "Tech-Docs/性能优化/C#-UE-Lua-GC机制深度对比.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity 向量运算的三大陷阱与优化策略",
+          "full_path": "Tech-Docs/数学基础/Unity 向量运算的三大陷阱与优化策略.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 几何计算与常用算法：从公式理解到玩法落地",
+          "full_path": "Tech-Docs/数学基础/Unity_几何计算与算法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 坐标系与变换矩阵：从空间语义到工程实践",
+          "full_path": "Tech-Docs/数学基础/Unity_坐标系与变换矩阵.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 射线与碰撞检测：从物理查询到交互系统",
+          "full_path": "Tech-Docs/数学基础/Unity_射线与碰撞检测.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
+          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "三角函数在游戏开发中的高性能替代方法",
+          "full_path": "Tech-Docs/数学基础/三角函数在游戏开发中的高性能替代方法.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "向量基础",
+          "full_path": "Tech-Docs/数学基础/向量基础.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "旋转与四元数",
+          "full_path": "Tech-Docs/数学基础/旋转与四元数.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "浮点误差导致的游戏 Bug 及修复方案",
+          "full_path": "Tech-Docs/数学基础/浮点误差导致的游戏 Bug 及修复方案.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "矩阵运算的性能影响：从 Transform 到 Shader",
+          "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
+          "category": "数学基础"
+        },
+        {
+          "title": "ECS与Unity传统开发结合",
+          "full_path": "Tech-Docs/架构设计/ECS与Unity传统开发结合.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS实现模式与数据管理",
+          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS架构核心理念",
+          "full_path": "Tech-Docs/架构设计/ECS架构核心理念.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS系统行为与交互模式",
+          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "ECS调试优化与未来展望",
+          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "基础事件总线实现",
+          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "HybridCLR 热更新的接入流程与坑点",
+          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
+          "category": "热更新与构建发布"
+        },
+        {
+          "title": "Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）",
+          "full_path": "Tech-Docs/物理系统/Unity内置物理计算的数学模型与优化（碰撞检测、刚体模拟）.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "Unity物理系统基础",
+          "full_path": "Tech-Docs/物理系统/Unity物理系统基础.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "手写物理系统入门与实践",
+          "full_path": "Tech-Docs/物理系统/手写物理系统入门与实践.md",
+          "category": "物理系统"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "字符串算法详解：匹配、回文、滑动窗口与工程性能",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_字符串算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
+          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "复杂度分析与数组基础",
+          "full_path": "Tech-Docs/算法与数据结构/复杂度分析与数组基础.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "玩法程序员成长路径",
+          "full_path": "Tech-Docs/职业发展/玩法程序员成长路径.md",
+          "category": "职业发展"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "基于 UnityEngine.Pool 封装对象池",
+          "full_path": "Tech-Docs/资源管理/基于UnityEngine.Pool封装对象池.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源依赖关系优化：减少包体与内存占用",
+          "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "性能优化",
+      "count": 67,
+      "files": [
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 委托与事件高级应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
           "category": "C#与响应式编程"
         },
         {
@@ -2195,6 +3149,11 @@
           "category": "并发与异步"
         },
         {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
           "title": "Unity 多线程编程与线程安全",
           "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
           "category": "并发与异步"
@@ -2210,6 +3169,11 @@
           "category": "引擎迁移"
         },
         {
+          "title": "构建发布与热更新迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
           "title": "渲染管线与图形技术迁移要点",
           "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
           "category": "引擎迁移"
@@ -2217,6 +3181,11 @@
         {
           "title": "物理与碰撞系统迁移要点",
           "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "资源管理与资产管线迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
           "category": "引擎迁移"
         },
         {
@@ -2360,9 +3329,44 @@
           "category": "物理系统"
         },
         {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
           "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
           "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
           "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
         },
         {
           "title": "LRU 缓存算法在对象池中的应用",
@@ -2370,15 +3374,91 @@
           "category": "资源管理"
         },
         {
+          "title": "基于 UnityEngine.Pool 封装对象池",
+          "full_path": "Tech-Docs/资源管理/基于UnityEngine.Pool封装对象池.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "对象池高级扩展功能",
+          "full_path": "Tech-Docs/资源管理/对象池高级扩展功能.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        },
+        {
           "title": "资源依赖关系优化：减少包体与内存占用",
           "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "热更新",
+      "count": 9,
+      "files": [
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "构建发布与热更新迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "资源管理与资产管线迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "ECS实现模式与数据管理",
+          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "HybridCLR 热更新的接入流程与坑点",
+          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
+          "category": "热更新与构建发布"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
           "category": "资源管理"
         }
       ]
     },
     {
       "name": "性能分析",
-      "count": 19,
+      "count": 20,
       "files": [
         {
           "title": "C# 反射在 Unity 中的应用",
@@ -2474,12 +3554,17 @@
           "title": "避免 UI Rebuild 的技巧与案例",
           "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
           "category": "性能优化"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
         }
       ]
     },
     {
-      "name": "热更新",
-      "count": 8,
+      "name": "代码生成",
+      "count": 5,
       "files": [
         {
           "title": "C# 反射在 Unity 中的应用",
@@ -2502,24 +3587,41 @@
           "category": "内存管理"
         },
         {
-          "title": "构建发布与热更新迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "title": "开发流程与引擎扩展迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
           "category": "引擎迁移"
+        }
+      ]
+    },
+    {
+      "name": "代码裁剪",
+      "count": 2,
+      "files": [
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
         },
         {
-          "title": "资源管理与资产管线迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
-          "category": "引擎迁移"
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
+        }
+      ]
+    },
+    {
+      "name": "Reflection",
+      "count": 2,
+      "files": [
+        {
+          "title": "C# 反射在 Unity 中的应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#反射在Unity中的应用.md",
+          "category": "C#与响应式编程"
         },
         {
-          "title": "ECS实现模式与数据管理",
-          "full_path": "Tech-Docs/架构设计/ECS实现模式与数据管理.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "HybridCLR 热更新的接入流程与坑点",
-          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
-          "category": "热更新与构建发布"
+          "title": "C# 表达式树与性能优化",
+          "full_path": "Tech-Docs/C#与响应式编程/C#表达式树与性能优化.md",
+          "category": "C#与响应式编程"
         }
       ]
     },
@@ -2540,8 +3642,8 @@
       ]
     },
     {
-      "name": "事件",
-      "count": 17,
+      "name": "响应式编程",
+      "count": 32,
       "files": [
         {
           "title": "C# 委托与事件高级应用",
@@ -2551,6 +3653,11 @@
         {
           "title": "ObservableProperty 高级封装",
           "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
           "category": "C#与响应式编程"
         },
         {
@@ -2594,9 +3701,69 @@
           "category": "KiraFramework讲解和迭代日志"
         },
         {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
           "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
           "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
           "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "UI 系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity UGUI Canvas 与元素管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "大型UI列表的虚拟化渲染实现",
+          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
+          "category": "性能优化"
         },
         {
           "title": "ECS系统行为与交互模式",
@@ -2627,12 +3794,22 @@
           "title": "高性能事件总线设计",
           "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
           "category": "架构设计"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
         }
       ]
     },
     {
-      "name": "事件总线",
-      "count": 6,
+      "name": "UniRx",
+      "count": 26,
       "files": [
         {
           "title": "C# 委托与事件高级应用",
@@ -2640,19 +3817,114 @@
           "category": "C#与响应式编程"
         },
         {
-          "title": "UI事件系统的架构优化（输入管理、事件总线）",
-          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
-          "category": "架构设计"
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
         },
         {
-          "title": "事件总线在大型项目中的应用",
-          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
-          "category": "架构设计"
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "category": "C#与响应式编程"
         },
         {
-          "title": "事件总线的重要性",
-          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
-          "category": "架构设计"
+          "title": "ReactiveProperty 详解",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式架构与 MVVM 模式",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "UI 系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity UGUI Canvas 与元素管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "大型UI列表的虚拟化渲染实现",
+          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
+          "category": "性能优化"
         },
         {
           "title": "基础事件总线实现",
@@ -2663,143 +3935,11 @@
           "title": "高性能事件总线设计",
           "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
           "category": "架构设计"
-        }
-      ]
-    },
-    {
-      "name": "UniRx",
-      "count": 12,
-      "files": [
-        {
-          "title": "C# 委托与事件高级应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
-          "category": "C#与响应式编程"
         },
         {
-          "title": "ObservableProperty 高级封装",
-          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveCommand 与 UI 交互",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveProperty 详解",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 性能分析与优化",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "Unity 生命周期中的响应式编程",
-          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式架构与 MVVM 模式",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式集合与数据绑定",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "高性能事件总线设计",
-          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
-          "category": "架构设计"
-        }
-      ]
-    },
-    {
-      "name": "响应式编程",
-      "count": 13,
-      "files": [
-        {
-          "title": "C# 委托与事件高级应用",
-          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ObservableProperty 高级封装",
-          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveCommand 与 UI 交互",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "ReactiveProperty 详解",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 性能分析与优化",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "Unity 生命周期中的响应式编程",
-          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式架构与 MVVM 模式",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "响应式集合与数据绑定",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
-          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
-          "category": "KiraFramework讲解和迭代日志"
-        },
-        {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "高性能事件总线设计",
-          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
-          "category": "架构设计"
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
         }
       ]
     },
@@ -2865,8 +4005,140 @@
       ]
     },
     {
+      "name": "事件",
+      "count": 18,
+      "files": [
+        {
+          "title": "C# 委托与事件高级应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ObservableProperty 高级封装",
+          "full_path": "Tech-Docs/C#与响应式编程/ObservableProperty高级封装.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "ReactiveProperty 详解",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveProperty详解.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式架构与 MVVM 模式",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式架构与MVVM模式.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "ECS系统行为与交互模式",
+          "full_path": "Tech-Docs/架构设计/ECS系统行为与交互模式.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "UI事件系统的架构优化（输入管理、事件总线）",
+          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线在大型项目中的应用",
+          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线的重要性",
+          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "基础事件总线实现",
+          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "高性能事件总线设计",
+          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "事件总线",
+      "count": 6,
+      "files": [
+        {
+          "title": "C# 委托与事件高级应用",
+          "full_path": "Tech-Docs/C#与响应式编程/C#委托与事件高级应用.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UI事件系统的架构优化（输入管理、事件总线）",
+          "full_path": "Tech-Docs/架构设计/UI事件系统的架构优化（输入管理、事件总线）.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线在大型项目中的应用",
+          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "事件总线的重要性",
+          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "基础事件总线实现",
+          "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "高性能事件总线设计",
+          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
+          "category": "架构设计"
+        }
+      ]
+    },
+    {
       "name": "生命周期",
-      "count": 23,
+      "count": 24,
       "files": [
         {
           "title": "C# 委托与事件高级应用",
@@ -2982,12 +4254,17 @@
           "title": "基础事件总线实现",
           "full_path": "Tech-Docs/架构设计/基础事件总线实现.md",
           "category": "架构设计"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
         }
       ]
     },
     {
-      "name": "缓存",
-      "count": 3,
+      "name": "缓存策略",
+      "count": 8,
       "files": [
         {
           "title": "C# 表达式树与性能优化",
@@ -3003,6 +4280,31 @@
           "title": "Unity 中常见的 GC Alloc 场景与分析工具",
           "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
           "category": "内存管理"
+        },
+        {
+          "title": "红点系统性能优化：通用架构设计与缓存策略",
+          "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
+          "category": "架构设计"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
+          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "LRU 缓存算法在对象池中的应用",
+          "full_path": "Tech-Docs/资源管理/LRU缓存算法在对象池中的应用.md",
+          "category": "资源管理"
         }
       ]
     },
@@ -3039,6 +4341,102 @@
           "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
           "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
           "category": "KiraFramework讲解和迭代日志"
+        }
+      ]
+    },
+    {
+      "name": "异步编程",
+      "count": 18,
+      "files": [
+        {
+          "title": "ReactiveCommand 与 UI 交互",
+          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 进阶操作与错误处理",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "UniRx 高级特性与自定义",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity 生命周期中的响应式编程",
+          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "UniTask 高级封装与实践",
+          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程与 UniTask 对比",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 多线程编程与线程安全",
+          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
         }
       ]
     },
@@ -3125,7 +4523,7 @@
     },
     {
       "name": "UI架构",
-      "count": 12,
+      "count": 13,
       "files": [
         {
           "title": "ReactiveCommand 与 UI 交互",
@@ -3186,32 +4584,27 @@
           "title": "红点系统性能优化：通用架构设计与缓存策略",
           "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
           "category": "架构设计"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
         }
       ]
     },
     {
-      "name": "异步编程",
-      "count": 11,
+      "name": "内存管理",
+      "count": 10,
       "files": [
         {
-          "title": "ReactiveCommand 与 UI 交互",
-          "full_path": "Tech-Docs/C#与响应式编程/ReactiveCommand与UI交互.md",
+          "title": "UniRx 性能分析与优化",
+          "full_path": "Tech-Docs/C#与响应式编程/UniRx性能分析与优化.md",
           "category": "C#与响应式编程"
         },
         {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "Unity 生命周期中的响应式编程",
-          "full_path": "Tech-Docs/C#与响应式编程/Unity生命周期中的响应式编程.md",
-          "category": "C#与响应式编程"
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
         },
         {
           "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
@@ -3219,34 +4612,39 @@
           "category": "内存管理"
         },
         {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
         },
         {
-          "title": "UniTask 高级封装与实践",
-          "full_path": "Tech-Docs/并发与异步/Unity_UniTask高级封装与实践.md",
-          "category": "并发与异步"
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
         },
         {
-          "title": "Unity 协程与 UniTask 对比",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
-          "category": "并发与异步"
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
         },
         {
-          "title": "Unity 协程基础与扩展",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
-          "category": "并发与异步"
+          "title": "C#、UE C++ 与 Lua GC 机制深度对比",
+          "full_path": "Tech-Docs/性能优化/C#-UE-Lua-GC机制深度对比.md",
+          "category": "性能优化"
         },
         {
-          "title": "Unity 多线程编程与线程安全",
-          "full_path": "Tech-Docs/并发与异步/Unity_多线程编程与线程安全.md",
-          "category": "并发与异步"
+          "title": "Unity UGUI 基础优化与资源管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI基础优化与资源管理.md",
+          "category": "性能优化"
         },
         {
           "title": "Unity UGUI 高级优化与注意事项",
           "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
           "category": "性能优化"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
         }
       ]
     },
@@ -3287,24 +4685,8 @@
       ]
     },
     {
-      "name": "错误处理",
-      "count": 2,
-      "files": [
-        {
-          "title": "UniRx 进阶操作与错误处理",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx进阶操作与错误处理.md",
-          "category": "C#与响应式编程"
-        },
-        {
-          "title": "UniRx 高级特性与自定义",
-          "full_path": "Tech-Docs/C#与响应式编程/UniRx高级特性与自定义.md",
-          "category": "C#与响应式编程"
-        }
-      ]
-    },
-    {
       "name": "对象池",
-      "count": 11,
+      "count": 14,
       "files": [
         {
           "title": "Unity 生命周期中的响应式编程",
@@ -3352,13 +4734,59 @@
           "category": "性能优化"
         },
         {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
           "title": "LRU 缓存算法在对象池中的应用",
           "full_path": "Tech-Docs/资源管理/LRU缓存算法在对象池中的应用.md",
           "category": "资源管理"
         },
         {
+          "title": "基于 UnityEngine.Pool 封装对象池",
+          "full_path": "Tech-Docs/资源管理/基于UnityEngine.Pool封装对象池.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
+        },
+        {
           "title": "对象池高级扩展功能",
           "full_path": "Tech-Docs/资源管理/对象池高级扩展功能.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "异步加载",
+      "count": 5,
+      "files": [
+        {
+          "title": "响应式集合与数据绑定",
+          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
+          "category": "C#与响应式编程"
+        },
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "大型UI列表的虚拟化渲染实现",
+          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
           "category": "资源管理"
         }
       ]
@@ -3385,28 +4813,113 @@
       ]
     },
     {
-      "name": "异步加载",
-      "count": 4,
+      "name": "Unreal Engine",
+      "count": 21,
       "files": [
         {
-          "title": "响应式集合与数据绑定",
-          "full_path": "Tech-Docs/C#与响应式编程/响应式集合与数据绑定.md",
-          "category": "C#与响应式编程"
+          "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
+          "full_path": "Tech-Docs/KiraFramework讲解和迭代日志/KiraFramework：架构讲解、工业化扩展与Luban配置管线迭代方案.md",
+          "category": "KiraFramework讲解和迭代日志"
         },
         {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
+          "title": "C#到C++语言迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
+          "category": "引擎迁移"
         },
         {
-          "title": "Unity UGUI 高级优化与注意事项",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "title": "NPC行为系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/NPC行为系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "UI 系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity 与 UE 常用功能类比",
+          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线与专题规划",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "Unity转UE学习路线总览",
+          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "动画系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/动画系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "开发流程与引擎扩展迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "引擎架构与 Gameplay 框架迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "性能优化与分析迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/性能优化与分析迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "构建发布与热更新迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "渲染管线与图形技术迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "物理与碰撞系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "网络与多人游戏迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/网络与多人游戏迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "蓝图与 C++ 脚本协作要点",
+          "full_path": "Tech-Docs/引擎迁移/蓝图与 C++ 脚本协作要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "资源管理与资产管线迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "输入系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/输入系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "音频与特效系统迁移要点",
+          "full_path": "Tech-Docs/引擎迁移/音频与特效系统迁移要点.md",
+          "category": "引擎迁移"
+        },
+        {
+          "title": "C#、UE C++ 与 Lua GC 机制深度对比",
+          "full_path": "Tech-Docs/性能优化/C#-UE-Lua-GC机制深度对比.md",
           "category": "性能优化"
         },
         {
-          "title": "大型UI列表的虚拟化渲染实现",
-          "full_path": "Tech-Docs/性能优化/大型UI列表的虚拟化渲染实现.md",
-          "category": "性能优化"
+          "title": "UE GAS 架构层全景：组件、设计思想与工程实践",
+          "full_path": "Tech-Docs/架构设计/UE GAS 架构层全景：组件、设计思想与工程实践.md",
+          "category": "架构设计"
         }
       ]
     },
@@ -3428,7 +4941,7 @@
     },
     {
       "name": "资源管理",
-      "count": 7,
+      "count": 12,
       "files": [
         {
           "title": "KiraFramework：从 Unity 工具链原型到工业化配置管线的架构讲解与 Luban 迭代方案",
@@ -3456,8 +4969,33 @@
           "category": "性能优化"
         },
         {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "基于 UnityEngine.Pool 封装对象池",
+          "full_path": "Tech-Docs/资源管理/基于UnityEngine.Pool封装对象池.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "大型项目的资源命名与组织规范",
+          "full_path": "Tech-Docs/资源管理/大型项目的资源命名与组织规范.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "对象池原理与实践",
+          "full_path": "Tech-Docs/资源管理/对象池原理与实践.md",
+          "category": "资源管理"
+        },
+        {
           "title": "对象池高级扩展功能",
           "full_path": "Tech-Docs/资源管理/对象池高级扩展功能.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
           "category": "资源管理"
         },
         {
@@ -3574,6 +5112,37 @@
       ]
     },
     {
+      "name": "协程优化",
+      "count": 5,
+      "files": [
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 协程与 UniTask 对比",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 协程基础与扩展",
+          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
+          "category": "并发与异步"
+        }
+      ]
+    },
+    {
       "name": "Memory Profiler",
       "count": 4,
       "files": [
@@ -3595,37 +5164,6 @@
         {
           "title": "Unity GC 基础概念与工作原理",
           "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
-        }
-      ]
-    },
-    {
-      "name": "托管内存",
-      "count": 5,
-      "files": [
-        {
-          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 基础概念与工作原理",
-          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
           "category": "内存管理"
         }
       ]
@@ -3667,6 +5205,63 @@
       ]
     },
     {
+      "name": "自动回收",
+      "count": 5,
+      "files": [
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity GC 基础概念与工作原理",
+          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "对象池高级扩展功能",
+          "full_path": "Tech-Docs/资源管理/对象池高级扩展功能.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "字符串",
+      "count": 4,
+      "files": [
+        {
+          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
+          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity UGUI 高级优化与注意事项",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI高级优化与注意事项.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "字符串算法详解：匹配、回文、滑动窗口与工程性能",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_字符串算法详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
       "name": "字符串优化",
       "count": 3,
       "files": [
@@ -3700,105 +5295,6 @@
           "title": "Unity 中常见的 GC Alloc 场景与分析工具",
           "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
           "category": "内存管理"
-        }
-      ]
-    },
-    {
-      "name": "协程优化",
-      "count": 3,
-      "files": [
-        {
-          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
-          "category": "内存管理"
-        }
-      ]
-    },
-    {
-      "name": "自动回收",
-      "count": 5,
-      "files": [
-        {
-          "title": "Unity GC 系列教程第三篇：GC Alloc 优化技巧与工程化实践（上）",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-上.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity 中常见的 GC Alloc 场景与分析工具",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc场景与分析工具.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 基础概念与工作原理",
-          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "对象池高级扩展功能",
-          "full_path": "Tech-Docs/资源管理/对象池高级扩展功能.md",
-          "category": "资源管理"
-        }
-      ]
-    },
-    {
-      "name": "增量 GC",
-      "count": 3,
-      "files": [
-        {
-          "title": "Unity GC Alloc 优化技巧（下）与 GC 调优",
-          "full_path": "Tech-Docs/内存管理/Unity-GC-Alloc优化技巧-下-与调优.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 基础概念与工作原理",
-          "full_path": "Tech-Docs/内存管理/Unity-GC基础概念与工作原理.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
-        }
-      ]
-    },
-    {
-      "name": "Job System",
-      "count": 4,
-      "files": [
-        {
-          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
-          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
-          "category": "内存管理"
-        },
-        {
-          "title": "Unity Job System 与 Burst",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Job System 高级封装与异步集成",
-          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
-          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
-          "category": "数学基础"
         }
       ]
     },
@@ -3849,8 +5345,34 @@
       ]
     },
     {
+      "name": "Job System",
+      "count": 4,
+      "files": [
+        {
+          "title": "Unity GC 高级话题与未来展望：从托管堆优化到数据导向架构",
+          "full_path": "Tech-Docs/内存管理/Unity-高级GC话题与未来展望.md",
+          "category": "内存管理"
+        },
+        {
+          "title": "Unity Job System 与 Burst",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem与Burst.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Job System 高级封装与异步集成",
+          "full_path": "Tech-Docs/并发与异步/Unity_JobSystem高级封装与异步集成.md",
+          "category": "并发与异步"
+        },
+        {
+          "title": "Unity 3D 数学进阶话题与性能优化：从算法到工程治理",
+          "full_path": "Tech-Docs/数学基础/Unity_进阶话题与优化.md",
+          "category": "数学基础"
+        }
+      ]
+    },
+    {
       "name": "工程协作",
-      "count": 5,
+      "count": 6,
       "files": [
         {
           "title": "中小型团队的角色分工与协作流程",
@@ -3876,72 +5398,11 @@
           "title": "开发流程与引擎扩展迁移要点",
           "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
           "category": "引擎迁移"
-        }
-      ]
-    },
-    {
-      "name": "工程治理",
-      "count": 12,
-      "files": [
-        {
-          "title": "中小型团队的角色分工与协作流程",
-          "full_path": "Tech-Docs/工程协作/中小型团队的角色分工与协作流程.md",
-          "category": "工程协作"
         },
         {
-          "title": "大型项目的代码Review流程与工具",
-          "full_path": "Tech-Docs/工程协作/大型项目的代码Review流程与工具.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "如何在多人项目中保证代码风格统一",
-          "full_path": "Tech-Docs/工程协作/如何在多人项目中保证代码风格统一.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "程序员如何与美术、策划高效对接",
-          "full_path": "Tech-Docs/工程协作/程序员如何与美术、策划高效对接.md",
-          "category": "工程协作"
-        },
-        {
-          "title": "开发流程与引擎扩展迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "构建发布与热更新迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "ECS调试优化与未来展望",
-          "full_path": "Tech-Docs/架构设计/ECS调试优化与未来展望.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "事件总线在大型项目中的应用",
-          "full_path": "Tech-Docs/架构设计/事件总线在大型项目中的应用.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "事件总线的重要性",
-          "full_path": "Tech-Docs/架构设计/事件总线的重要性.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "架构设计知识图谱",
-          "full_path": "Tech-Docs/架构设计/架构设计知识图谱.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "高性能事件总线设计",
-          "full_path": "Tech-Docs/架构设计/高性能事件总线设计.md",
-          "category": "架构设计"
-        },
-        {
-          "title": "HybridCLR 热更新的接入流程与坑点",
-          "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
-          "category": "热更新与构建发布"
+          "title": "团队协作与优秀开发者",
+          "full_path": "Tech-Docs/职业发展/团队协作与优秀开发者.md",
+          "category": "职业发展"
         }
       ]
     },
@@ -3967,130 +5428,8 @@
       ]
     },
     {
-      "name": "协程编程",
-      "count": 2,
-      "files": [
-        {
-          "title": "Unity 协程与 UniTask 对比",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程与UniTask对比.md",
-          "category": "并发与异步"
-        },
-        {
-          "title": "Unity 协程基础与扩展",
-          "full_path": "Tech-Docs/并发与异步/Unity_协程基础与扩展.md",
-          "category": "并发与异步"
-        }
-      ]
-    },
-    {
-      "name": "Unreal Engine",
-      "count": 20,
-      "files": [
-        {
-          "title": "C#到C++语言迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/C#到C++语言迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "NPC行为系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/NPC行为系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "UI 系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/UI 系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity 与 UE 常用功能类比",
-          "full_path": "Tech-Docs/引擎迁移/Unity 与 UE 常用功能类比.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线与专题规划",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线与专题规划.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "Unity转UE学习路线总览",
-          "full_path": "Tech-Docs/引擎迁移/Unity转UE学习路线总览.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "动画系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/动画系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "开发流程与引擎扩展迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/开发流程与引擎扩展迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "引擎架构与 Gameplay 框架迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/引擎架构与 Gameplay 框架迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "性能优化与分析迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/性能优化与分析迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "构建发布与热更新迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/构建发布与热更新迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "渲染管线与图形技术迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/渲染管线与图形技术迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "物理与碰撞系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/物理与碰撞系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "网络与多人游戏迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/网络与多人游戏迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "蓝图与 C++ 脚本协作要点",
-          "full_path": "Tech-Docs/引擎迁移/蓝图与 C++ 脚本协作要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "资源管理与资产管线迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/资源管理与资产管线迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "输入系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/输入系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "音频与特效系统迁移要点",
-          "full_path": "Tech-Docs/引擎迁移/音频与特效系统迁移要点.md",
-          "category": "引擎迁移"
-        },
-        {
-          "title": "C#、UE C++ 与 Lua GC 机制深度对比",
-          "full_path": "Tech-Docs/性能优化/C#-UE-Lua-GC机制深度对比.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "UE GAS 架构层全景：组件、设计思想与工程实践",
-          "full_path": "Tech-Docs/架构设计/UE GAS 架构层全景：组件、设计思想与工程实践.md",
-          "category": "架构设计"
-        }
-      ]
-    },
-    {
       "name": "学习路线",
-      "count": 9,
+      "count": 10,
       "files": [
         {
           "title": "C#到C++语言迁移要点",
@@ -4136,6 +5475,11 @@
           "title": "架构设计知识图谱",
           "full_path": "Tech-Docs/架构设计/架构设计知识图谱.md",
           "category": "架构设计"
+        },
+        {
+          "title": "算法与数据结构学习路线",
+          "full_path": "Tech-Docs/算法与数据结构/算法与数据结构学习路线.md",
+          "category": "算法与数据结构"
         }
       ]
     },
@@ -4173,7 +5517,7 @@
     },
     {
       "name": "构建发布",
-      "count": 2,
+      "count": 3,
       "files": [
         {
           "title": "构建发布与热更新迁移要点",
@@ -4184,12 +5528,17 @@
           "title": "HybridCLR 热更新的接入流程与坑点",
           "full_path": "Tech-Docs/热更新与构建发布/HybridCLR 热更新的接入流程与坑点.md",
           "category": "热更新与构建发布"
+        },
+        {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
         }
       ]
     },
     {
       "name": "包体优化",
-      "count": 4,
+      "count": 6,
       "files": [
         {
           "title": "构建发布与热更新迁移要点",
@@ -4207,6 +5556,16 @@
           "category": "性能优化"
         },
         {
+          "title": "Addressables、AssetBundle 与 YooAsset 对比",
+          "full_path": "Tech-Docs/资源管理/Addressables、AssetBundle 与 YooAsset 对比.md",
+          "category": "资源管理"
+        },
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        },
+        {
           "title": "资源依赖关系优化：减少包体与内存占用",
           "full_path": "Tech-Docs/资源管理/资源依赖关系优化：减少包体与内存占用.md",
           "category": "资源管理"
@@ -4215,7 +5574,7 @@
     },
     {
       "name": "图形学",
-      "count": 7,
+      "count": 9,
       "files": [
         {
           "title": "渲染管线与图形技术迁移要点",
@@ -4225,6 +5584,11 @@
         {
           "title": "Mask 与 RectMask2D 的性能代价分析",
           "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
+          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
           "category": "性能优化"
         },
         {
@@ -4251,6 +5615,11 @@
           "title": "矩阵运算的性能影响：从 Transform 到 Shader",
           "full_path": "Tech-Docs/数学基础/矩阵运算的性能影响：从 Transform 到 Shader.md",
           "category": "数学基础"
+        },
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
         }
       ]
     },
@@ -4446,42 +5815,6 @@
       ]
     },
     {
-      "name": "Canvas",
-      "count": 6,
-      "files": [
-        {
-          "title": "Canvas 分层的正确姿势与性能收益",
-          "full_path": "Tech-Docs/性能优化/Canvas 分层的正确姿势与性能收益.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Mask 与 RectMask2D 的性能代价分析",
-          "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
-          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI Canvas 与元素管理",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "Unity UGUI 渲染与像素填充率优化",
-          "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
-          "category": "性能优化"
-        },
-        {
-          "title": "避免 UI Rebuild 的技巧与案例",
-          "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
-          "category": "性能优化"
-        }
-      ]
-    },
-    {
       "name": "Rebuild",
       "count": 5,
       "files": [
@@ -4539,6 +5872,42 @@
         {
           "title": "Unity UGUI 渲染与像素填充率优化",
           "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
+          "category": "性能优化"
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "count": 6,
+      "files": [
+        {
+          "title": "Canvas 分层的正确姿势与性能收益",
+          "full_path": "Tech-Docs/性能优化/Canvas 分层的正确姿势与性能收益.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Mask 与 RectMask2D 的性能代价分析",
+          "full_path": "Tech-Docs/性能优化/Mask 与 RectMask2D 的性能代价分析.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "UGUI降低 DrawCall 的 5 种方法实测对比",
+          "full_path": "Tech-Docs/性能优化/UGUI降低 DrawCall 的 5 种方法实测对比.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI Canvas 与元素管理",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI_Canvas与元素管理.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "Unity UGUI 渲染与像素填充率优化",
+          "full_path": "Tech-Docs/性能优化/Unity_UGUI渲染与像素填充率优化.md",
+          "category": "性能优化"
+        },
+        {
+          "title": "避免 UI Rebuild 的技巧与案例",
+          "full_path": "Tech-Docs/性能优化/避免 UI Rebuild 的技巧与案例.md",
           "category": "性能优化"
         }
       ]
@@ -4631,17 +6000,107 @@
       ]
     },
     {
-      "name": "缓存策略",
-      "count": 3,
+      "name": "算法与数据结构",
+      "count": 21,
       "files": [
         {
-          "title": "红点系统性能优化：通用架构设计与缓存策略",
-          "full_path": "Tech-Docs/架构设计/红点系统性能优化：通用架构设计与缓存策略.md",
-          "category": "架构设计"
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "哈希表详解：O(1) 查找、冲突处理、键设计与工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_哈希表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "字符串算法详解：匹配、回文、滑动窗口与工程性能",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_字符串算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
         },
         {
           "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
           "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "复杂度分析与数组基础",
+          "full_path": "Tech-Docs/算法与数据结构/复杂度分析与数组基础.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "排序算法详解",
+          "full_path": "Tech-Docs/算法与数据结构/排序算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "算法与数据结构学习路线",
+          "full_path": "Tech-Docs/算法与数据结构/算法与数据结构学习路线.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高级专题与算法面试",
+          "full_path": "Tech-Docs/算法与数据结构/高级专题与算法面试.md",
           "category": "算法与数据结构"
         },
         {
@@ -4652,17 +6111,627 @@
       ]
     },
     {
-      "name": "算法与数据结构",
-      "count": 2,
+      "name": "任务调度",
+      "count": 3,
       "files": [
         {
-          "title": "哈希表在 Unity 中的高效使用与避免碰撞技巧",
-          "full_path": "Tech-Docs/算法与数据结构/哈希表在 Unity 中的高效使用与避免碰撞技巧.md",
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
           "category": "算法与数据结构"
         },
         {
-          "title": "LRU 缓存算法在对象池中的应用",
-          "full_path": "Tech-Docs/资源管理/LRU缓存算法在对象池中的应用.md",
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "栈详解：后进先出的受限容器与工程化应用",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_栈详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "寻路",
+      "count": 2,
+      "files": [
+        {
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "堆详解：优先队列、Top K、对顶堆与 C# 工程实践",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_堆详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "Top K",
+      "count": 2,
+      "files": [
+        {
+          "title": "Unity 项目中堆的5种实际用法",
+          "full_path": "Tech-Docs/算法与数据结构/Unity 项目中堆的5种实际用法.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "回文",
+      "count": 1,
+      "files": [
+        {
+          "title": "字符串算法详解：匹配、回文、滑动窗口与工程性能",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_字符串算法详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "并发队列",
+      "count": 1,
+      "files": [
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "主线程派发",
+      "count": 1,
+      "files": [
+        {
+          "title": "队列详解：先进先出的数据结构、循环队列与任务调度模型",
+          "full_path": "Tech-Docs/算法与数据结构/Unity_队列详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "BSP",
+      "count": 1,
+      "files": [
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "可见性裁剪",
+      "count": 1,
+      "files": [
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "Streaming",
+      "count": 1,
+      "files": [
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "二叉树",
+      "count": 2,
+      "files": [
+        {
+          "title": "二叉树在游戏场景管理中的应用",
+          "full_path": "Tech-Docs/算法与数据结构/二叉树在游戏场景管理中的应用.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "动态规划",
+      "count": 2,
+      "files": [
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高级专题与算法面试",
+          "full_path": "Tech-Docs/算法与数据结构/高级专题与算法面试.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "记忆化",
+      "count": 1,
+      "files": [
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "状态转移",
+      "count": 1,
+      "files": [
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "背包问题",
+      "count": 1,
+      "files": [
+        {
+          "title": "动态规划",
+          "full_path": "Tech-Docs/算法与数据结构/动态规划.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "回溯",
+      "count": 1,
+      "files": [
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "贪心",
+      "count": 1,
+      "files": [
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "DFS",
+      "count": 2,
+      "files": [
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "剪枝",
+      "count": 1,
+      "files": [
+        {
+          "title": "回溯与贪心",
+          "full_path": "Tech-Docs/算法与数据结构/回溯与贪心.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "图",
+      "count": 1,
+      "files": [
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "最短路径",
+      "count": 1,
+      "files": [
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "拓扑排序",
+      "count": 1,
+      "files": [
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "并查集",
+      "count": 1,
+      "files": [
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "搜索",
+      "count": 1,
+      "files": [
+        {
+          "title": "图与搜索",
+          "full_path": "Tech-Docs/算法与数据结构/图与搜索.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "数组",
+      "count": 1,
+      "files": [
+        {
+          "title": "复杂度分析与数组基础",
+          "full_path": "Tech-Docs/算法与数据结构/复杂度分析与数组基础.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "复杂度分析",
+      "count": 5,
+      "files": [
+        {
+          "title": "复杂度分析与数组基础",
+          "full_path": "Tech-Docs/算法与数据结构/复杂度分析与数组基础.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "排序算法详解",
+          "full_path": "Tech-Docs/算法与数据结构/排序算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "算法与数据结构学习路线",
+          "full_path": "Tech-Docs/算法与数据结构/算法与数据结构学习路线.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高级专题与算法面试",
+          "full_path": "Tech-Docs/算法与数据结构/高级专题与算法面试.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "排序算法",
+      "count": 2,
+      "files": [
+        {
+          "title": "排序算法详解",
+          "full_path": "Tech-Docs/算法与数据结构/排序算法详解.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "二叉搜索树",
+      "count": 1,
+      "files": [
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "递归",
+      "count": 1,
+      "files": [
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "遍历",
+      "count": 1,
+      "files": [
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "树",
+      "count": 1,
+      "files": [
+        {
+          "title": "树与二叉树",
+          "full_path": "Tech-Docs/算法与数据结构/树与二叉树.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "比较器",
+      "count": 1,
+      "files": [
+        {
+          "title": "游戏中常用的排序算法对比",
+          "full_path": "Tech-Docs/算法与数据结构/游戏中常用的排序算法对比.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "空间分区",
+      "count": 1,
+      "files": [
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "四叉树",
+      "count": 1,
+      "files": [
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "八叉树",
+      "count": 1,
+      "files": [
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "BVH",
+      "count": 1,
+      "files": [
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "网格",
+      "count": 1,
+      "files": [
+        {
+          "title": "空间分区算法对性能的影响",
+          "full_path": "Tech-Docs/算法与数据结构/空间分区算法对性能的影响.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "问题建模",
+      "count": 2,
+      "files": [
+        {
+          "title": "算法与数据结构学习路线",
+          "full_path": "Tech-Docs/算法与数据结构/算法与数据结构学习路线.md",
+          "category": "算法与数据结构"
+        },
+        {
+          "title": "高级专题与算法面试",
+          "full_path": "Tech-Docs/算法与数据结构/高级专题与算法面试.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "链表",
+      "count": 1,
+      "files": [
+        {
+          "title": "链表详解",
+          "full_path": "Tech-Docs/算法与数据结构/链表详解.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "环形缓冲",
+      "count": 1,
+      "files": [
+        {
+          "title": "高效队列的实现与优化",
+          "full_path": "Tech-Docs/算法与数据结构/高效队列的实现与优化.md",
+          "category": "算法与数据结构"
+        }
+      ]
+    },
+    {
+      "name": "成长规划",
+      "count": 1,
+      "files": [
+        {
+          "title": "游戏开发专业方向探索",
+          "full_path": "Tech-Docs/职业发展/游戏开发专业方向探索.md",
+          "category": "职业发展"
+        }
+      ]
+    },
+    {
+      "name": "协作关系",
+      "count": 1,
+      "files": [
+        {
+          "title": "游戏开发团队角色与分工",
+          "full_path": "Tech-Docs/职业发展/游戏开发团队角色与分工.md",
+          "category": "职业发展"
+        }
+      ]
+    },
+    {
+      "name": "岗位职责",
+      "count": 1,
+      "files": [
+        {
+          "title": "游戏开发团队角色与分工",
+          "full_path": "Tech-Docs/职业发展/游戏开发团队角色与分工.md",
+          "category": "职业发展"
+        }
+      ]
+    },
+    {
+      "name": "平台适配",
+      "count": 1,
+      "files": [
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "Mesh 优化",
+      "count": 1,
+      "files": [
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "导入 Preset",
+      "count": 1,
+      "files": [
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "显存",
+      "count": 1,
+      "files": [
+        {
+          "title": "美术资源导入优化：贴图压缩与 Mesh 优化",
+          "full_path": "Tech-Docs/资源管理/美术资源导入优化：贴图压缩与 Mesh 优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "弱网",
+      "count": 1,
+      "files": [
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "用户体验",
+      "count": 1,
+      "files": [
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "后台补齐",
+      "count": 1,
+      "files": [
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "最小可进入",
+      "count": 1,
+      "files": [
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
+          "category": "资源管理"
+        }
+      ]
+    },
+    {
+      "name": "进度管理",
+      "count": 1,
+      "files": [
+        {
+          "title": "资源异步加载的进度管理与用户体验优化",
+          "full_path": "Tech-Docs/资源管理/资源异步加载的进度管理与用户体验优化.md",
           "category": "资源管理"
         }
       ]

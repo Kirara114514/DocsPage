@@ -1,9 +1,13 @@
 # 文档源文件（独立 Git 仓库）
 Tech-Docs/
 
-# Webhook 临时文件
-.webhook_trigger
-.webhook_processing
+# 生成的索引文件（服务器端生成，不入库）
+index.json
+search_index.json
+tags.json
+
+# 服务器配置文件（由服务器维护）
+.user.ini
 
 # Python 缓存
 __pycache__/
