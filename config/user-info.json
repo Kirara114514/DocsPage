@@ -19,20 +19,12 @@
       "order": 2
     },
     {
-      "id": "location",
-      "title": "暂居地",
-      "content": "上海 (Shanghai)",
-      "icon": "map-marker",
-      "color": "green",
-      "order": 3
-    },
-    {
       "id": "experience",
       "title": "行业积淀",
       "content": "3年+ 一线游戏工业化开发经验，专注于高扩展性系统设计与底层性能优化。",
       "icon": "hourglass-half",
       "color": "orange",
-      "order": 4
+      "order": 3
     },
     {
       "id": "technical_stack",
@@ -40,7 +32,7 @@
       "content": "C++ / Lua / C#；Unity & Unreal 双引擎架构；深耕 ECS、MVVM 及响应式编程 (UniRx)。",
       "icon": "code",
       "color": "cyan",
-      "order": 5
+      "order": 4
     },
     {
       "id": "project_milestones",
@@ -48,7 +40,7 @@
       "content": "主导全游戏增益系统 (Buff System) 设计和开发；自研 Kira Framework 跨引擎通用框架。",
       "icon": "trophy",
       "color": "yellow",
-      "order": 6
+      "order": 5
     },
     {
       "id": "engineering_philosophy",
@@ -56,7 +48,7 @@
       "content": "崇尚“工具强约束”替代“手写规范”；追求 O(1) 级别的逻辑触发效率；极致的代码洁癖与组件化思维。",
       "icon": "gears",
       "color": "red",
-      "order": 7
+      "order": 6
     },
     {
       "id": "optimization_expertise",
@@ -64,23 +56,7 @@
       "content": "静态预处理 (Pre-processing) 与逆向索引映射；具备 UGUI 合批、Canvas 分层及高频数据刷新调优实战经验。",
       "icon": "bolt",
       "color": "indigo",
-      "order": 8
-    },
-    {
-      "id": "workstation",
-      "title": "生产力环境",
-      "content": "4屏 Monitor 矩阵工作站；基于 Docker & Git 的自动化灵感捕捉与工作流管理。",
-      "icon": "desktop",
-      "color": "teal",
-      "order": 9
-    },
-    {
-      "id": "interests",
-      "title": "兴趣",
-      "content": "二次元文化、高性能数码硬件、电子游戏、现代烹饪艺术、极简生活组织者。",
-      "icon": "heart",
-      "color": "pink",
-      "order": 10
+      "order": 7
     },
     {
       "id": "status",
@@ -88,7 +64,7 @@
       "content": "正在为千万级玩家构建更优雅的游戏世界 (Coding...)",
       "icon": "circle",
       "color": "green",
-      "order": 11
+      "order": 18
     }
   ],
   "settings": {
