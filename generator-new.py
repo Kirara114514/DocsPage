@@ -458,7 +458,7 @@ def try_fix_permissions(filepath: Path, webhook_mode: bool) -> None:
         return
 
     try:
-        subprocess.run(["chown", "www:www", str(filepath)], check=True, capture_output=True)
+        subprocess.run(["chown", "www-data:www-data", str(filepath)], check=False, capture_output=True)
         subprocess.run(["chmod", "644", str(filepath)], check=True, capture_output=True)
         if not webhook_mode:
             print(f"✅ 权限已修复: {filepath}")
