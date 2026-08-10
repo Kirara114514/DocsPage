@@ -334,9 +334,13 @@
     text-align: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
     .doc-header {
-        top: 10px;
+        position: relative;
+        top: auto;
+        gap: 12px;
+        padding: 16px;
+        border-radius: 22px;
     }
 
     .doc-layout,
@@ -345,20 +349,111 @@
     }
 
     .doc-toc-sidebar {
-        position: static;
-        order: -1;
+        position: fixed;
+        z-index: 50;
+        inset: auto 10px max(10px, env(safe-area-inset-bottom)) 10px;
+        max-height: min(70dvh, 560px);
+        padding: 14px;
+        border-radius: 22px;
+        overflow: hidden;
     }
 
     .doc-main-column {
         order: 0;
     }
 
+    .doc-layout.is-toc-collapsed .doc-toc-sidebar {
+        inset: auto 10px max(10px, env(safe-area-inset-bottom)) auto;
+        width: 56px;
+        height: 56px;
+        padding: 6px;
+        border-radius: 20px;
+    }
+
     .doc-layout.is-toc-collapsed #tocToggleLabel,
     .doc-layout.is-toc-collapsed #docTocBody {
-        display: initial;
+        display: none;
+    }
+
+    #docTocBody {
+        max-height: calc(70dvh - 82px);
+    }
+
+    .doc-header__top .back-link {
+        width: auto;
+        flex: 1 1 auto;
+        min-height: 42px;
+        padding: 0 14px;
     }
 
     .doc-content-panel {
         padding: 18px 18px 24px;
+    }
+
+    .markdown-body table {
+        display: block;
+        width: max-content;
+        max-width: 100%;
+        overflow-x: auto;
+        table-layout: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .doc-title {
+        font-size: clamp(1.4rem, 7vw, 1.75rem);
+    }
+
+    .doc-header__top {
+        gap: 8px;
+    }
+
+    .doc-header__top .eyebrow {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+    }
+
+    .doc-header .meta-row {
+        gap: 8px;
+    }
+
+    .doc-header .meta-pill,
+    .doc-header .tag {
+        padding: 6px 9px;
+        font-size: 0.78rem;
+    }
+
+    .doc-content-panel {
+        padding: 16px 15px 22px;
+        border-radius: 22px;
+    }
+
+    .markdown-body {
+        font-size: 0.97rem;
+        line-height: 1.75;
+    }
+
+    .markdown-body h1 {
+        font-size: 1.65rem;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.35rem;
+    }
+
+    .markdown-body h3 {
+        font-size: 1.14rem;
+    }
+
+    .markdown-body pre {
+        margin-inline: -5px;
+        padding: 0.9rem;
+        border-radius: 14px;
+    }
+
+    .markdown-body th,
+    .markdown-body td {
+        min-width: 120px;
+        padding: 0.7rem 0.8rem;
     }
 }

@@ -10,8 +10,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/docs.css">
+    <link rel="stylesheet" href="./assets/css/base.css?v=20260810">
+    <link rel="stylesheet" href="./assets/css/docs.css?v=20260810c">
 </head>
 <body>
     <main class="site-shell page-frame">
@@ -33,9 +33,14 @@
                     </div>
                 </div>
 
-                <div class="divider"></div>
+                <div class="divider" id="docsCategoryDivider"></div>
 
-                <div class="section-heading" style="margin-bottom:12px;">
+                <button class="btn-ghost mobile-category-toggle" type="button" id="mobileCategoryToggle" aria-controls="folderList" aria-expanded="false">
+                    <span><i class="fas fa-layer-group"></i> <span id="docsCategoryToggleText"></span></span>
+                    <i class="fas fa-chevron-down mobile-category-toggle__icon" id="docsCategoryToggleIcon" aria-hidden="true"></i>
+                </button>
+
+                <div class="section-heading docs-category-heading" id="docsCategoryHeading" style="margin-bottom:12px;">
                     <h2 class="section-title" style="font-size:1.08rem;"><i class="fas fa-layer-group"></i> <span id="docsCategoryTitle"></span></h2>
                 </div>
                 <div class="sidebar-stack" id="folderList">
@@ -118,6 +123,6 @@
         </div>
     </main>
 
-    <script type="module" src="./assets/js/pages/docs-page.js?v=3"></script>
+    <script type="module" src="./assets/js/pages/docs-page.js?v=mobile1"></script>
 </body>
 </html>

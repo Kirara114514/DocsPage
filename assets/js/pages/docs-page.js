@@ -28,6 +28,11 @@ class DocsPage {
             tabs: document.querySelectorAll("[data-view]"),
             sidebar: document.querySelector(".docs-sidebar"),
             folderList: document.getElementById("folderList"),
+            categoryHeading: document.getElementById("docsCategoryHeading"),
+            categoryDivider: document.getElementById("docsCategoryDivider"),
+            categoryToggle: document.getElementById("mobileCategoryToggle"),
+            categoryToggleText: document.getElementById("docsCategoryToggleText"),
+            categoryToggleIcon: document.getElementById("docsCategoryToggleIcon"),
             documentList: document.getElementById("documentList"),
             docCount: document.getElementById("docCount"),
             docStats: document.getElementById("docStats"),
@@ -96,6 +101,11 @@ class DocsPage {
     }
 
     bindEvents() {
+        this.elements.categoryToggle?.addEventListener("click", () => {
+            const isOpen = !this.elements.sidebar?.classList.contains("is-categories-open");
+            this.setMobileCategoriesOpen(isOpen);
+        });
+
         this.elements.tabs.forEach((tab) => {
             tab.addEventListener("click", () => {
                 const nextView = tab.dataset.view;
@@ -114,6 +124,7 @@ class DocsPage {
 
                 this.render();
                 this.updateUrl();
+                this.setMobileCategoriesOpen(false);
             });
         });
 
@@ -127,6 +138,22 @@ class DocsPage {
         });
 
         this.elements.folderList?.addEventListener("click", (event) => {
+            const subFolderButton = event.target.closest("[data-subfolder-name]");
+            if (subFolderButton) {
+                this.selectedFolder = subFolderButton.dataset.folderName || this.selectedFolder;
+                this.selectedSubFolder = subFolderButton.dataset.subfolderName || null;
+                sessionStorage.setItem("selectedFolder", this.selectedFolder);
+                if (this.selectedSubFolder) {
+                    sessionStorage.setItem("selectedSubFolder", this.selectedSubFolder);
+                } else {
+                    sessionStorage.removeItem("selectedSubFolder");
+                }
+                this.render();
+                this.updateUrl();
+                this.setMobileCategoriesOpen(false);
+                return;
+            }
+
             const folderButton = event.target.closest("[data-folder-name]");
             if (folderButton) {
                 const folderName = folderButton.dataset.folderName;
@@ -141,21 +168,9 @@ class DocsPage {
                 sessionStorage.removeItem("selectedSubFolder");
                 this.render();
                 this.updateUrl();
+                this.setMobileCategoriesOpen(false);
                 return;
             }
-
-            const subFolderButton = event.target.closest("[data-subfolder-name]");
-            if (!subFolderButton) return;
-            this.selectedFolder = subFolderButton.dataset.folderName || this.selectedFolder;
-            this.selectedSubFolder = subFolderButton.dataset.subfolderName || null;
-            sessionStorage.setItem("selectedFolder", this.selectedFolder);
-            if (this.selectedSubFolder) {
-                sessionStorage.setItem("selectedSubFolder", this.selectedSubFolder);
-            } else {
-                sessionStorage.removeItem("selectedSubFolder");
-            }
-            this.render();
-            this.updateUrl();
         });
 
         // 搜索输入
@@ -283,6 +298,18 @@ class DocsPage {
         return readText(this.siteText, path, fallback);
     }
 
+    setMobileCategoriesOpen(isOpen) {
+        this.elements.sidebar?.classList.toggle("is-categories-open", isOpen);
+        this.elements.categoryToggle?.setAttribute("aria-expanded", String(isOpen));
+        this.elements.categoryToggleIcon?.classList.toggle("fa-chevron-down", !isOpen);
+        this.elements.categoryToggleIcon?.classList.toggle("fa-chevron-up", isOpen);
+        setText(
+            this.elements.categoryToggleText,
+            this.copy(isOpen ? "docs.category_toggle_close" : "docs.category_toggle_open"),
+            { hideIfEmpty: false },
+        );
+    }
+
     renderCopy() {
         setDocumentMeta(this.copy("docs.page_title"), this.copy("docs.meta_description"));
         setText(this.elements.backHomeText, this.copy("docs.back_home"));
@@ -292,6 +319,7 @@ class DocsPage {
         setText(this.elements.tabPending, this.copy("docs.tab_pending"), { hideIfEmpty: false });
         setText(this.elements.tabHistory, this.copy("docs.tab_history"), { hideIfEmpty: false });
         setText(this.elements.categoryTitle, this.copy("docs.category_title"), { hideIfEmpty: false });
+        this.setMobileCategoriesOpen(this.elements.sidebar?.classList.contains("is-categories-open") ?? false);
         setText(this.elements.loadingCategoryTreeText, this.copy("common.loading_category_tree"));
         setText(this.elements.toolbarEyebrow, this.copy("docs.toolbar_eyebrow"));
         setText(this.elements.updateLabel, this.copy("docs.toolbar_update_label"));
@@ -325,14 +353,13 @@ class DocsPage {
         const showCategories = this.currentView === "library";
         const folderList = this.elements.folderList;
         if (folderList) {
-            // 隐藏分类标题
-            const categoryHeading = folderList.previousElementSibling;
-            // 隐藏分割线
-            const divider = categoryHeading?.previousElementSibling;
-            
             folderList.classList.toggle("hidden", !showCategories);
-            categoryHeading?.classList.toggle("hidden", !showCategories);
-            divider?.classList.toggle("hidden", !showCategories);
+            this.elements.categoryHeading?.classList.toggle("hidden", !showCategories);
+            this.elements.categoryDivider?.classList.toggle("hidden", !showCategories);
+            this.elements.categoryToggle?.classList.toggle("hidden", !showCategories);
+            if (!showCategories) {
+                this.setMobileCategoriesOpen(false);
+            }
         }
     }
 

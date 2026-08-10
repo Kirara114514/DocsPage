@@ -66,6 +66,8 @@
     "tab_pending": "待处理",
     "tab_history": "历史记录",
     "category_title": "分类",
+    "category_toggle_open": "展开分类筛选",
+    "category_toggle_close": "收起分类筛选",
     "empty_categories": "当前视图下暂无可展示分类喵。",
     "toolbar_eyebrow": "当前视图",
     "toolbar_update_label": "索引更新时间：",

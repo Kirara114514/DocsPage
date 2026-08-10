@@ -41,6 +41,10 @@
     margin-bottom: 22px;
 }
 
+.mobile-category-toggle {
+    display: none;
+}
+
 .tab-row {
     display: flex;
     flex-wrap: wrap;
@@ -232,6 +236,34 @@
 
     .docs-sidebar {
         position: static;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .mobile-category-toggle {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-category-toggle__icon {
+        transition: transform var(--transition-fast);
+    }
+
+    .docs-category-heading {
+        display: none;
+    }
+
+    .docs-sidebar #folderList {
+        display: none;
+    }
+
+    .docs-sidebar.is-categories-open #folderList:not(.hidden) {
+        display: grid;
+        max-height: min(52dvh, 460px);
+        margin-top: 12px;
+        padding-right: 4px;
+        overflow-y: auto;
     }
 }
 
@@ -440,3 +472,196 @@
 .loading-skeleton__block--w40 { width: 40%; }
 .loading-skeleton__block--h24 { height: 24px; }
 .loading-skeleton__block--h32 { height: 32px; border-radius: 12px; }
+
+@media (max-width: 720px) {
+    .docs-layout,
+    .docs-main {
+        gap: 12px;
+    }
+
+    .docs-sidebar {
+        padding: 14px;
+        border-radius: 22px;
+    }
+
+    .docs-sidebar__header {
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+
+    .docs-sidebar__header .section-title {
+        font-size: 1.14rem !important;
+    }
+
+    .docs-sidebar__header .muted-text {
+        display: none;
+    }
+
+    .tab-row {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 6px;
+    }
+
+    .tab-button {
+        min-width: 0;
+        min-height: 40px;
+        padding: 0 8px;
+        font-size: 0.84rem;
+    }
+
+    #docsCategoryDivider {
+        margin: 12px 0;
+    }
+
+    .mobile-category-toggle {
+        min-height: 44px;
+        padding: 0 14px;
+    }
+
+    .docs-sidebar.is-categories-open #folderList:not(.hidden) {
+        max-height: 55dvh;
+    }
+
+    .sidebar-item__title {
+        padding: 12px 14px;
+    }
+
+    .toolbar {
+        align-items: stretch;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .toolbar__summary {
+        width: 100%;
+    }
+
+    .toolbar__actions {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .toolbar .btn-secondary {
+        width: auto;
+        min-height: 42px;
+        padding: 0 14px;
+    }
+
+    .toolbar .stat-pill {
+        min-width: 0;
+        justify-content: center;
+        padding-inline: 9px;
+        font-size: 0.78rem;
+    }
+
+    .search-section {
+        padding: 14px;
+        border-radius: 20px;
+    }
+
+    .tag-filter-area__body {
+        max-height: 140px;
+    }
+
+    .section-heading {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 14px;
+    }
+
+    .section-heading > .stat-pill {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-heading .section-title {
+        font-size: 1.22rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .stat-card {
+        min-height: 94px;
+        padding: 12px 8px;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .stat-card__value {
+        font-size: 1.55rem;
+    }
+
+    .stat-card__label {
+        font-size: 0.76rem;
+        line-height: 1.35;
+    }
+
+    .stat-card__meta {
+        display: none;
+    }
+
+    .document-stack {
+        gap: 10px;
+    }
+
+    .doc-item {
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .doc-item__header {
+        display: grid;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .doc-item__header .meta-row,
+    .doc-item__meta {
+        gap: 6px;
+    }
+
+    .doc-item__title {
+        font-size: 1rem;
+        line-height: 1.45;
+    }
+
+    .doc-item__summary {
+        display: -webkit-box;
+        overflow: hidden;
+        font-size: 0.88rem;
+        line-height: 1.55;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .doc-item__footer {
+        display: grid;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .doc-item__footer > .meta-pill {
+        justify-self: end;
+    }
+
+    .doc-item .meta-pill,
+    .doc-item .tag,
+    .status-badge {
+        padding: 6px 9px;
+        font-size: 0.76rem;
+    }
+}
+
+@media (max-width: 360px) {
+    #docsUpdateLabel {
+        display: none;
+    }
+}

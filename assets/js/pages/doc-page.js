@@ -30,6 +30,7 @@ class DocPage {
     }
 
     async init() {
+        this.setTocCollapsed(window.matchMedia("(max-width: 900px)").matches);
         initSharedMotion();
         initEffects();
         this.bindEvents();
@@ -80,10 +81,14 @@ class DocPage {
 
     bindEvents() {
         this.elements.tocToggle?.addEventListener("click", () => {
-            this.isTocCollapsed = !this.isTocCollapsed;
-            this.elements.layout?.classList.toggle("is-toc-collapsed", this.isTocCollapsed);
-            this.updateTocToggleLabel();
+            this.setTocCollapsed(!this.isTocCollapsed);
         });
+    }
+
+    setTocCollapsed(isCollapsed) {
+        this.isTocCollapsed = isCollapsed;
+        this.elements.layout?.classList.toggle("is-toc-collapsed", isCollapsed);
+        this.updateTocToggleLabel();
     }
 
     copy(path, fallback = "") {
@@ -100,10 +105,16 @@ class DocPage {
     }
 
     updateTocToggleLabel() {
+        const label = this.isTocCollapsed ? this.copy("doc.toc_toggle_expand") : this.copy("doc.toc_toggle_collapse");
         setText(
             this.elements.tocToggleLabel,
-            this.isTocCollapsed ? this.copy("doc.toc_toggle_expand") : this.copy("doc.toc_toggle_collapse"),
+            label,
         );
+        this.elements.tocToggle?.setAttribute("aria-expanded", String(!this.isTocCollapsed));
+        if (label) {
+            this.elements.tocToggle?.setAttribute("aria-label", label);
+            this.elements.tocToggle?.setAttribute("title", label);
+        }
     }
 
     async loadDocument() {
@@ -208,6 +219,9 @@ class DocPage {
                     const offset = header ? header.getBoundingClientRect().height + 18 + 12 : 110;
                     const targetTop = target.getBoundingClientRect().top + window.scrollY;
                     window.scrollTo({ top: Math.max(0, targetTop - offset), behavior: "smooth" });
+                    if (window.matchMedia("(max-width: 900px)").matches) {
+                        this.setTocCollapsed(true);
+                    }
                 }
             });
         });
