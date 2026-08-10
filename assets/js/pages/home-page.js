@@ -6,7 +6,7 @@ import {
     loadIndexData,
     loadSiteText,
     loadUserInfo,
-} from "../core/data-service.js";
+} from "../core/data-service.js?v=2";
 import {
     escapeHtml,
     formatDate,

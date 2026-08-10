@@ -1,4 +1,4 @@
-import { findDocumentByPath, findDocumentBySlug, isSafeDocumentPath, isSafeSlug, loadIndexData, loadSiteText } from "../core/data-service.js";
+import { findDocumentByPath, findDocumentBySlug, isSafeDocumentPath, isSafeSlug, loadIndexData, loadSiteText } from "../core/data-service.js?v=2";
 import { buildMarkdownView } from "../core/markdown.js";
 import { escapeHtml, readText, setDocumentMeta, setText } from "../core/dom.js";
 import { initSharedMotion, refreshMotion } from "../core/motion.js";

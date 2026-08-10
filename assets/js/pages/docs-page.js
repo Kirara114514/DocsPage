@@ -7,7 +7,7 @@ import {
     loadDocumentOrder,
     loadIndexData,
     loadSiteText,
-} from "../core/data-service.js";
+} from "../core/data-service.js?v=2";
 import { escapeHtml, formatDate, readText, setButtonLoading, setDocumentMeta, setText, summarizeText } from "../core/dom.js";
 import { initSharedMotion, refreshMotion } from "../core/motion.js";
 import { initEffects, addRipple } from "../core/effects.js";
