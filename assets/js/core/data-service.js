@@ -13,6 +13,11 @@ const siteTextCache = {
     value: null,
 };
 
+const documentOrderCache = {
+    promise: null,
+    value: null,
+};
+
 const tagsCache = {
     promise: null,
     value: null,
@@ -89,6 +94,28 @@ export async function loadSiteText(forceRefresh = false) {
     }
 
     return siteTextCache.promise;
+}
+
+export async function loadDocumentOrder(forceRefresh = false) {
+    if (forceRefresh) {
+        documentOrderCache.promise = null;
+        documentOrderCache.value = null;
+    }
+
+    if (documentOrderCache.value) {
+        return documentOrderCache.value;
+    }
+
+    if (!documentOrderCache.promise) {
+        documentOrderCache.promise = fetchJson("./config/document-order.json")
+            .catch(() => ({ top: [], bottom: [] }))
+            .then((data) => {
+                documentOrderCache.value = data;
+                return data;
+            });
+    }
+
+    return documentOrderCache.promise;
 }
 
 export async function loadTagsData(forceRefresh = false) {

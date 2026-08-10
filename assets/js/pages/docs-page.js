@@ -4,6 +4,7 @@ import {
     findCategory,
     getStats,
     getViewScopedCategories,
+    loadDocumentOrder,
     loadIndexData,
     loadSiteText,
 } from "../core/data-service.js";
@@ -24,6 +25,7 @@ class DocsPage {
         this.selectedTags = new Set();
         this.searchQuery = "";
         this.filterActive = false;
+        this.documentOrder = { top: [], bottom: [] };
         this.elements = {
             tabs: document.querySelectorAll("[data-view]"),
             sidebar: document.querySelector(".docs-sidebar"),
@@ -238,16 +240,18 @@ class DocsPage {
                     return r.json();
                 });
 
-            const [indexData, siteText, tagsData, searchData] = await Promise.all([
+            const [indexData, siteText, tagsData, searchData, documentOrder] = await Promise.all([
                 loadIndexData(forceRefresh),
                 loadSiteText(forceRefresh).catch(() => null),
                 fetchJson("./tags.json").catch(() => null),
                 fetchJson("./search_index.json").catch(() => null),
+                loadDocumentOrder(forceRefresh),
             ]);
             this.indexData = indexData;
             this.siteText = siteText;
             this.tagsData = tagsData;
             this.searchData = searchData;
+            this.documentOrder = documentOrder;
 
             try {
                 this.initFuse();
@@ -566,6 +570,39 @@ class DocsPage {
         return collectDocuments(target).filter((doc) => doc.type === "file");
     }
 
+    /**
+     * 按 config/document-order.json 排序：
+     * top 列表按配置顺序置顶，bottom 列表按配置顺序置底，其余按时间倒序。
+     */
+    sortDocuments(documents) {
+        const top = this.documentOrder?.top ?? [];
+        const bottom = this.documentOrder?.bottom ?? [];
+        const topIndex = new Map(top.map((slug, index) => [slug, index]));
+        const bottomIndex = new Map(bottom.map((slug, index) => [slug, index]));
+
+        const timeCompare = (left, right) => {
+            const leftDate = left.updated || left.date || "";
+            const rightDate = right.updated || right.date || "";
+            const cmp = String(rightDate).localeCompare(String(leftDate));
+            if (cmp !== 0) return cmp;
+            return (right.modified || 0) - (left.modified || 0);
+        };
+
+        const rankOf = (doc) => {
+            if (topIndex.has(doc.slug)) return { group: 0, order: topIndex.get(doc.slug) };
+            if (bottomIndex.has(doc.slug)) return { group: 2, order: bottomIndex.get(doc.slug) };
+            return { group: 1, order: 0 };
+        };
+
+        return documents.sort((left, right) => {
+            const lr = rankOf(left);
+            const rr = rankOf(right);
+            if (lr.group !== rr.group) return lr.group - rr.group;
+            if (lr.group !== 1) return lr.order - rr.order;
+            return timeCompare(left, right);
+        });
+    }
+
     /** 根据当前筛选条件（搜索+标签）获取匹配文档 */
     getFilteredDocs() {
         let docs = this.getCurrentCategoryDocs();
@@ -625,8 +662,8 @@ class DocsPage {
             return docs;
         }
 
-        // 无搜索时按日期排序
-        return docs.sort(dateSorter);
+        // 无搜索时按配置 + 日期排序
+        return this.sortDocuments(docs);
     }
 
     renderFilteredResults() {
@@ -697,15 +734,9 @@ class DocsPage {
             }
         }
 
-        documents = documents
-            .filter((doc) => doc.type === "file")
-            .sort((left, right) => {
-                const leftDate = left.updated || left.date || "";
-                const rightDate = right.updated || right.date || "";
-                const cmp = String(rightDate).localeCompare(String(leftDate));
-                if (cmp !== 0) return cmp;
-                return (right.modified || 0) - (left.modified || 0);
-            });
+        documents = this.sortDocuments(
+            documents.filter((doc) => doc.type === "file"),
+        );
 
         if (!documents.length) {
             this.elements.documentList.innerHTML = `
