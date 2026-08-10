@@ -565,6 +565,18 @@
 
     .tag-filter-area__body {
         max-height: 140px;
+        align-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .tag-pill {
+        flex: 0 0 auto;
+        padding: 5px 9px;
+        font-size: 0.8rem;
+        animation: none;
+        transform: none;
+        will-change: auto;
     }
 
     .section-heading {
@@ -663,5 +675,14 @@
 @media (max-width: 360px) {
     #docsUpdateLabel {
         display: none;
+    }
+
+    .tag-filter-area__body {
+        gap: 4px;
+    }
+
+    .tag-pill {
+        padding: 4px 7px;
+        font-size: 0.76rem;
     }
 }

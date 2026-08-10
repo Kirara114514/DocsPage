@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Iterable
 
 IGNORED_NAMES = {".git", ".format_backup", ".temp_writing", "修复前备份", "模板规范"}
+TAG_SEPARATOR_PATTERN = re.compile(r"[,，、;；]+")
 SPECIAL_CATEGORY_ORDER = {
     "模板规范": 0,
     "Tech-Docs": 1,
@@ -78,6 +79,21 @@ def read_markdown(path: Path) -> str:
         raise GenerationError(f"文件不是 UTF-8 编码，已跳过: {path}") from error
 
 
+def parse_tags(tag_text: str) -> tuple[str, ...]:
+    """Split tag metadata on supported punctuation and remove duplicates."""
+    tags: list[str] = []
+    seen: set[str] = set()
+
+    for raw_tag in TAG_SEPARATOR_PATTERN.split(tag_text):
+        tag = " ".join(raw_tag.split())
+        if not tag or tag in seen:
+            continue
+        seen.add(tag)
+        tags.append(tag)
+
+    return tuple(tags)
+
+
 def extract_metadata_from_content(content: str) -> Metadata:
     title = ""
     for line in content.splitlines():
@@ -122,8 +138,7 @@ def extract_metadata_from_content(content: str) -> Metadata:
             fields[key] = line.replace(prefix, "", 1).strip()
             break
 
-    tag_text = fields.get("tags", "")
-    tags = tuple(tag.strip() for tag in tag_text.replace("，", ",").split(",") if tag.strip())
+    tags = parse_tags(fields.get("tags", ""))
 
     return Metadata(
         title=title,
