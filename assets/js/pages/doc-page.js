@@ -35,15 +35,9 @@ class DocPage {
         initEffects();
         this.bindEvents();
 
-        // 优先从 URL 路径提取 slug（新格式：/doc/slug）
-        const pathMatch = window.location.pathname.match(/\/doc\/([^\/]+)$/);
-        if (pathMatch) {
-            this.documentSlug = decodeURIComponent(pathMatch[1]);
-        }
-
-        // 兼容旧格式：从 query string 读取
+        // 从 query string 读取 slug / path
         const params = new URLSearchParams(window.location.search);
-        this.documentSlug = this.documentSlug || params.get("slug");
+        this.documentSlug = params.get("slug");
         this.documentPath = params.get("path");
 
         this.siteText = await loadSiteText().catch(() => null);
