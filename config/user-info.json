@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-28T02:22:39Z",
+  "updated_at": "2026-08-16T00:00:00Z",
   "info_blocks": [
     {
       "id": "name",
@@ -13,7 +13,7 @@
     {
       "id": "occupation",
       "title": "职业",
-      "content": "Unity/UE 客户端架构开发 | 叠纸游戏星叠 · 《无限暖暖》项目组",
+      "content": "游戏高级客户端开发工程师 · Unity / UE 双引擎",
       "icon": "briefcase",
       "color": "purple",
       "order": 2
@@ -21,7 +21,7 @@
     {
       "id": "experience",
       "title": "行业积淀",
-      "content": "3年+ 一线游戏工业化开发经验，专注于高扩展性系统设计与底层性能优化。",
+      "content": "近4年一线游戏开发经验，专注复杂游戏架构、性能调优与工程化落地。",
       "icon": "hourglass-half",
       "color": "orange",
       "order": 3
@@ -29,7 +29,7 @@
     {
       "id": "technical_stack",
       "title": "技术栈",
-      "content": "C++ / Lua / C#；Unity & Unreal 双引擎架构；深耕 ECS、MVVM 及响应式编程 (UniRx)。",
+      "content": "C# · C++ · Lua；Unity & UE 双引擎；ECS / MVVM / 响应式编程",
       "icon": "code",
       "color": "cyan",
       "order": 4
@@ -37,7 +37,7 @@
     {
       "id": "project_milestones",
       "title": "专业里程碑",
-      "content": "主导全游戏增益系统 (Buff System) 设计和开发；自研 Kira Framework 跨引擎通用框架。",
+      "content": "自研跨引擎通用框架；负责大型项目核心系统的客户端设计与实现",
       "icon": "trophy",
       "color": "yellow",
       "order": 5
@@ -45,18 +45,18 @@
     {
       "id": "engineering_philosophy",
       "title": "工程哲学",
-      "content": "崇尚“工具强约束”替代“手写规范”；追求 O(1) 级别的逻辑触发效率；极致的代码洁癖与组件化思维。",
+      "content": "以工具链约束替代人工规范，追求 O(1) 级触发效率与极致组件化",
       "icon": "gears",
       "color": "red",
       "order": 6
     },
     {
-      "id": "optimization_expertise",
-      "title": "性能领域",
-      "content": "静态预处理 (Pre-processing) 与逆向索引映射；具备 UGUI 合批、Canvas 分层及高频数据刷新调优实战经验。",
-      "icon": "bolt",
-      "color": "indigo",
-      "order": 7
+      "id": "technical_writing",
+      "title": "技术写作",
+      "content": "180+ 篇技术文档沉淀，CSDN 周榜 TOP 2k+；维护个人技术文档站",
+      "icon": "pen-nib",
+      "color": "teal",
+      "order": 8
     },
     {
       "id": "status",
